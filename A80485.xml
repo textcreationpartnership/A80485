@@ -1,0 +1,688 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at the assizes in Salisbury upon Saturday, July 23. 1653 By Henry Carpenter, vicar of Steeple-Ashton in Wiltshire.</title>
+            <author>Carpenter, Henry, 1605 or 6-1662.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1653</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 103 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80485</idno>
+            <idno type="STC">Wing C614A</idno>
+            <idno type="STC">ESTC R222501</idno>
+            <idno type="EEBO-CITATION">99897172</idno>
+            <idno type="PROQUEST">99897172</idno>
+            <idno type="VID">135576</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80485)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 135576)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2474:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at the assizes in Salisbury upon Saturday, July 23. 1653 By Henry Carpenter, vicar of Steeple-Ashton in Wiltshire.</title>
+                  <author>Carpenter, Henry, 1605 or 6-1662.</author>
+               </titleStmt>
+               <extent>46 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by John Macock for Octavian Pullen, and are to be sold at the sign of the Rose in Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1653.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Marginal notes.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:135576:1"/>
+            <pb facs="tcp:135576:2" rendition="simple:additions"/>
+            <p>A SERMON Preached at the Aſſizes in Salisbury Upon Saturday, July 23. 1653. By HENRY CARPENTER, Vicar of <hi>Steeple-Aſhton</hi> in <hi>Wiltſhire.</hi>
+            </p>
+            <q>Uprightneſs hath Boldneſs.</q>
+            <q>
+               <bibl>
+                  <hi>ROM. 16.20.</hi>
+               </bibl> The God of Peace ſhall tread Satan under your feet Shortly.</q>
+            <q>
+               <bibl>
+                  <hi>REVEL. 12.12.</hi>
+               </bibl> Having great Wrath, becauſe he knoweth that he hath but a ſhort time.</q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>John Macock</hi> for <hi>Octavian Pullen,</hi> and are to be ſold at the ſign of the <hi>Roſe</hi> in <hi>Pauls</hi> Church-yard. 1653.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:135576:3"/>
+            <pb n="3" facs="tcp:135576:3"/>
+            <head>To My Chriſtian Reader.</head>
+            <p>
+               <seg rend="decorInit">A</seg>LL that I crave of thee, is, that thou make good this Title that I have given thee; For <hi>[Rea<g ref="char:EOLhyphen"/>der]</hi> and <hi>[Chriſtian]</hi> thou mayst be, though This never come nigh thee; but <hi>[Mine]</hi> thou canſt not be, unleſs I am ſo far Thine, as that thou read me Chriſtianly: And although I dare not (as Mine) commend it to thy Reading, becauſe I know not whether thy Reading can commend it, yet being overcome to expoſe it, I dare adviſe thee, If I have written evil, to bear witneſs of the evil; but if well,
+<note place="margin">Joh. 18.23.</note> to take heed how thou ſmite me uncharitably in judgment, for the coming of the Lord draweth nigh, and we ſhall all appear before the Judgment ſeat of Chriſt.</p>
+            <p>And if my Charity muſt call Thee <hi>Chriſtian</hi> though unknown, ſurely Thine ſhould ſo call the ends and motives of this Publica<g ref="char:EOLhyphen"/>tion though unſeen; well imagining that he whom ſo often en<g ref="char:EOLhyphen"/>treaties could never yet get aboard in a Calm, would not now without ſome kind of conſtraint launch forth on ſo thin a bottom in a Storm: A Storm beyond that in <hi>Paul</hi>'s voyage to <hi>Rome,</hi>
+               <note place="margin">Act. 27.14</note> by how much the Winds and Seas are more croſs and contrary
+<pb n="4" facs="tcp:135576:4"/>and a more tempeſtuous <hi>Euroclydon</hi>
+               <note n="*" place="margin">That Seamans plague.</note>; Yet I am bid be of good cheer in hopes of Gods ſaying the word, that even on This Board and broken piece (by his grace) ſome Soul may eſcape ſafe to Land.</p>
+            <p>I know the Eye is a ſeverer Judg then the Ear, and ſo much the worſe for the weakneſs that is in it; but the Eye is a wiſer and truer Judg then the Ear, and ſo much the better for the ſincerity and ſimplicity of it. Here is all (without the leaſt witting omiſ<g ref="char:EOLhyphen"/>ſsion) of what was then delivered, with the addition of ſome ex<g ref="char:EOLhyphen"/>preſsions here and there, which were intended, but for fear of treſpaſsing upon that Patience omitted, whereby ſome paſſages haply were obſcured in the Delivery.</p>
+            <p>As for the Text, If my Choyce offend thee (and yet not mine) let me advertiſe thee, That if I had conſulted with my ſelf when Providence called me to this Service (by his Deſires, which to me were virtual Commands) I had probably ſingled out ſome other Subject, that might have ſeemed more ſuitable, and proved more plauſible: But asking counſel of God, (though this Text in all the parts of it had lately been my matter of divers Sermons at home and abroad, yet) I found this particular preſs ſo hard upon my ſpirit (an Apology which too many in our times have uſed to worſe ends) that no room for other thoughts could be granted: If this excuſe not, abſtract the Occaſion, and take thou to the Sermon, and much good may it do thee, <hi>Tolle quod tu<g ref="char:EOLhyphen"/>um eſt &amp; vade,</hi>
+               <q>Cui nil ipſe dabas is Tibi verba dedit.</q>
+            </p>
+            <p>It is (like the Author) <hi>a Plain one;</hi>
+               <note place="margin">1 Pet. 3.4.</note> For the plain Song to that which S. <hi>Peter</hi> calls <hi>[the hidden man of the heart]</hi> makes the beſt Muſick; The plain way makes the beſt ſpeed; as <hi>Ahi<g ref="char:EOLhyphen"/>maaz</hi> did out-run <hi>Cuſhi,</hi>
+               <note place="margin">2 Sam. 18.</note> 
+               <hi>per viam plani,</hi> by the way of the Plain: No affected ſtrains or quaint expreſsions, leſt the Auditor ſhould <hi>hominem olere,</hi> ſmell man in it, and ſo turn his back upon it; No gawdy, gariſh, cheap dreſsings of unneceſſary Quotations, enlarging my marginal Borders with ſuch deep Fringes and broad Phylacteries, telling the people how many Authors (if not more then) I have read: Thoſe few of our learned Countrymens Names and Terms (being Authentick in their Generation) that
+<pb n="5" facs="tcp:135576:4"/>I have made bold with (and that I hope without offence) had been ſpared, but for my neceſſary Vindication from proud Sin<g ref="char:EOLhyphen"/>gularity, uncharitable Error, and Preſumption.</p>
+            <p>It is (like the Author) ſomething a Rough-hewn one;
+<note place="margin">Ezek. 13.22.</note> yet loth to gall the ſpirit, or make ſad the heart of any righteous man, whom God doth not make ſad, never loving to grieve any mans Soul in the Pulpit for harm; yet I have known ulcerous men to ſhriek out at the leaſt ſuſpition of being touched, when nothing that way hath been intended: And beſides, in diſtempered times of violent and various Occurrences, 'tis hard to ſpeak pertinent<g ref="char:EOLhyphen"/>ly to any Text, and acceptably to All Hearers, eſpecially when there are ſo many Counter-parties, tuning their ears to the key of their own intereſts and fancies. This repugnant Compoſition in Congregational Bodies (like that in Natural, which is ſtiled <hi>Medicorum opprobrium</hi>) diſcourages and ſtraitens all Mini<g ref="char:EOLhyphen"/>ſtrations; As ſuppoſe the Liver be hot, and yet the Stomack cold, that which helps in reſpect of the one, may hurt in regard of the other: So that I ſcarce know any unſilent Miniſter that lies not under this difficulty and prejudice at ſome time or other, unleſs he do (as <hi>Balak</hi> would have it) Neither curſe them at all,
+<note place="margin">Numb 23.25 Job 6.6.</note> nor bleſs them at all; and ſerve in ſome Nothing (as <hi>Job</hi> hath it,) like the white of an Eg, that hath no taſte at all. But for my part, Here is no Traducing of Superiors,
+<note place="margin">Judg. 5 15.</note> No raiſing of mutinous or tumultuous great thoughts of heart againſt Government, No diſturbing of Peace either in Church or State, (too much of that already God help it;) No Exaſperating, but rather Ac<g ref="char:EOLhyphen"/>commodating (rightly underſtood) of The Godly, truly ſo called, (God increaſe their Number, Graces and Comforts.) There are that are called <hi>[Godly,]</hi>
+               <note place="margin">Act. 13.50</note> as there were that were called and counted <hi>[Devout,]</hi> whom yet the Jews ſtirred up to raiſe Perſecution againſt <hi>Paul</hi> and <hi>Barnabas,</hi> the Apoſtles of the Lord Jeſus, (a Godly and Devout Party indeed;)
+<note place="margin">2 Pet. 2.1. 1 Tim. 4.1.</note> If the Devil can get ſuch but to hold his Cards, he thinks the Gane his own. This of mine is wholly bent and aymed againſt Damnable Hereſies, Curſed Blaſphemies, Impious Doctrines and Works of Devils; I hope it will Anger only thoſe whom I fear to Pleaſe, Prophaners,
+<pb n="6" facs="tcp:135576:5"/>Blaſphemers, Witches, Sorcerers, Devils, and their Followers; It is only by way of Exclamation, Lamentation, and Direction upon the Devils great Wrath in theſe laſt Days and perillous Times, becauſe he knows his Time is ſhort: And can this be op<g ref="char:EOLhyphen"/>probrious and unpleaſing to any ſound Chriſtian, high or low? I have leſs fear and more charity then to think ſo: No, no, my greater fear is, that the cowardly Peace of thoſe Tongues, that ought to ſpeak,
+<note place="margin">Iſai 58.1.</note> yea cry aloud and ſpare not, hath caſt us (in Gods juſt Judgment) under the ungodly ſtrife of thoſe Tongues that ought to hold their Peace.
+<note place="margin">Pſal. 31.20</note> The Lord in mercy forgive our humane fears and neglects of Duty in our difficult and perplexed Times.</p>
+            <p>It is a Naked one without Dedication, (like the Author now without a Patron;) Now no Patron but God, and therefore no Dedicatory Epiſtle but Prayer, To be hid in the ſecret of his Preſence from the Pride of Men,
+<note place="margin">Pſa. 22.12 Pſa. 68.30</note> and to be kept ſecretly in his Pa<g ref="char:EOLhyphen"/>vilion from that ſtrife of Tongues; To be delivered, by the Grace of his Power, from <hi>David</hi>'s Beaſts, Calves and Bulls of the people,
+<note place="margin">2 The 3.2.</note> and from <hi>Paul</hi>'s unreaſonable and wicked men, (for all men have not Faith;) That God would, by the Power of his Grace, bleſs and proſper even This Plain, This Rough-hewn, This Naked Piece unto Thee, and Thee unto thy ſelf and Me, who am,</p>
+            <closer>
+               <signed>Thine in Him, who is ours if we be His, even the Lord Jeſus Chriſt,</signed> To whom be All the Honour of his Grace and Power now and ever. Amen.</closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="7" facs="tcp:135576:5"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>MARK 9.29.</hi>
+                  </bibl>
+                  <p>This Kind can come forth by nothing, but by Prayer and Faſting.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">A</seg>Lthough Coherence make much for the underſtanding of Scripture-Texts, yet Copiouſneſs of Matter, and Scantneſs of Time, may forbid to inſiſt thereon: An eaſie Reflection on the foregoing Argument would clear the Connexi<g ref="char:EOLhyphen"/>on, and ſhew the Dependance: But I am loth to lead your Attention ſo far back as the 14<hi rend="sup">th</hi> Verſe, where our Context begins, leſt I de<g ref="char:EOLhyphen"/>tain you too long in the Porch of a Preface, having but one hour to ſtay with you in the Houſe of this Diſcourſe.</p>
+            <p>This Story here, as it ſtands upon ſacred Record, is very obvious; The ſum whereof is this:</p>
+            <p n="1">1. Here is a Poor Son miſerably poſſeſſed with the worſt kind of Devils; <hi>Whereſoever he taketh him, he teereth him,</hi>
+               <note place="margin">Verſe 18, 20, 22.</note> 
+               <hi>that he walloweth, fometh, gnaſheth with his teeth, and conſumeth away, caſteth him into the fire and into the water to deſtroy him, &amp;c.</hi> A poor Son.</p>
+            <p n="2">2. Here is a Sad Father grievouſly perplexed, ſolicitous how to cure him, and happily hearing of a Society of men in the world that had even evil Spirits ſubject unto them, brings him to Chriſts Diſciples that they might caſt this evil Spirit out, <hi>And they could not,</hi> ſaith the Text. A ſad Father.</p>
+            <note place="margin">Verſe 18.</note>
+            <pb n="8" facs="tcp:135576:6"/>
+            <p n="3">3. Here is a Sound Doctor, Chriſt, who hearing of it, readily undertakes it,
+<note place="margin">Verſe 19 26, 27.</note> 
+               <hi>Bring him to me,</hi> and really effects it, &amp;c.</p>
+            <p n="4">4. Hereupon the Diſciples as unſatisfied (ſo ſoon as they can for ſhame) deſire to be reſolved why they could not do it:
+<note place="margin">Verſe 28</note> Chriſt tells them, that this was no ſuch petty common eaſie kind of Devil, as to be turned out at their meer word-bidding, as by ſlight Spells or Charms; But here was need not only of Faith and Prayer,
+<note place="margin">Verſe 29</note> but alſo of Faſting and extra<g ref="char:EOLhyphen"/>ordinary Humiliation, as by an holy and more ſet and ſo<g ref="char:EOLhyphen"/>lemn Conjuration, to caſt ſuch a kind of Devil as This out of his old poſſeſſion.</p>
+            <p>Which leads your Attentions to this Text: <hi>And when he was come into the houſe, his Diſclples asked him privately, Why could not we caſt him out?</hi>
+            </p>
+            <p>
+               <hi>And He ſaid unto them, This kind can come forth by nothing but by Prayer and Faſting.</hi>
+            </p>
+            <p>I need not open the door of this Text with the key of any acurate Diviſion: The words do eaſily and plainly open and divide themſelves into three parts; <hi>viz.</hi>
+            </p>
+            <q>The Malady, The Recovery, The Remedy.</q>
+            <p n="1">1. <hi>The Malady</hi> and Diſeaſe pointed at in the terms of <hi>[This Kind.]</hi>
+            </p>
+            <p n="2">2. <hi>The Recovery</hi> and Cure intimated in the terms of <hi>[Coming forth.]</hi>
+            </p>
+            <p n="3">3. <hi>The Remedy</hi> and Medicine expreſſed in the two Ingre<g ref="char:EOLhyphen"/>dients of <hi>[Prayer and Faſting.]</hi>
+            </p>
+            <q>This Kind can come forth by nothing but by Prayer and Faſting.</q>
+            <p>But before I come to ſpeak of the particulars, give me leave to deliver this Note in general from the Connexion of theſe words with the former; wherein is propounded a Queſtion by the Diſciples, Why they could not caſt this evil Spirit out, <hi>[Why could not we, &amp;c.]</hi> In which I ob<g ref="char:EOLhyphen"/>ſerve,</p>
+            <q>Though ſome godly people in former Ages were fur<g ref="char:EOLhyphen"/>niſhed
+<pb n="9" facs="tcp:135576:6"/>at divers times with an extraordinary Power of working ſtrange Miracles; yet they had not this Power Abſolute, could not put it forth of themſelves, but as they were ſtill holpen by Divine Diſpenſation: 'Tis not Ab<g ref="char:EOLhyphen"/>ſolute in Man, but ſtill Arbitrary in God.</q>
+            <p>And therefore <hi>Joſeph</hi>'s anſwer to <hi>Pharaoh</hi> was,
+<note place="margin">Gen 41.16</note> 
+               <hi>It is not in me; God ſhall give Pharaoh an anſwer of peace.</hi> But why not in thee, good <hi>Joſeph?</hi> Thou hadſt that gift of God;
+<note place="margin">Gen. 40.12, 19.</note> Thou couldſt give the Butler and the Baker an anſwer of their dreams; was not That in thee? why not the King then an anſwer of his dream? No, not in me, neither That nor This abſolutely,
+<note place="margin">Gen. 40.8</note> but as God was ſtill pleaſed to diſpenſe and go along with me; <hi>Do not Interpretations belong to God?</hi>
+            </p>
+            <p>And <hi>Moſes</hi> that mighty man of God, who at one time was ſo powerful with God, when God called out unto him,
+<note place="margin">Exo. 32.10</note> 
+               <hi>Let me alone, that I may conſume them, &amp;c.</hi> and ſeemed to ſtop the mouth of his importunity by ſaying, <hi>I will make of thee a great Nation;</hi> as if Heaven had ſuffered violence indeed, and God could not do as he would, as if tyed by the ſpiri<g ref="char:EOLhyphen"/>tual force of <hi>Moſes</hi>'s faithful and zealous prayers, &amp;c. Yet at another time he makes queſtion of his prevalency with God, <hi>And now I will go up,</hi>
+               <note place="margin">Verſe 30.</note> 
+               <hi>peradventure I ſhall make an at<g ref="char:EOLhyphen"/>tonement for you, &amp;c.</hi> to ſhew us, that 'tis not the abſolute ex<g ref="char:EOLhyphen"/>cellency or faculty of prayer that prevails with God, but Gods own condeſcending goodneſs in providing and ac<g ref="char:EOLhyphen"/>cepting ſuch a means as prayer, in deſigning and ſingling out ſuch a thing as prayer unto ſuch an effect as prevailing with him, through his own Condeſcention. And thus the God of ſtrength, like <hi>Sampſon</hi> the ſtrong, ſhews us a way how to bind his own hands, but ſtill at his own power and pleaſure,
+<note place="margin">Joel 2.14.</note> 
+               <hi>Who can tell if he will return? &amp;c.</hi> ſaith the Prophet.
+<note place="margin">Dan. 2.16, 19</note>
+            </p>
+            <p>And <hi>Daniel</hi> could not give anſwer to <hi>Nebuchadnezzar</hi>'s dream, till he craved ſome time, and had the ſecret revealed unto him by God;
+<note place="margin">Verſe 30.</note> humbly acknowledging as it were with <hi>Joſeph, It is not in me, for any wiſdom that is in me, &amp;c.</hi> it is ſtill with God.</p>
+            <pb n="10" facs="tcp:135576:7"/>
+            <p>And in the New Teſtament,
+<note place="margin">Luk. 10.17 Acts 6.8. Act. 19.11, 12 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Cor. 12.10.</note> the Apoſtles and Diſciples of the Lord Jeſus were wonderfully endowed with ſtrange power of effecting great Miracles, in curing Diſeaſes, and caſting out of Devils as <hi>ſubject unto them;</hi> yet not ſo abſo<g ref="char:EOLhyphen"/>lute, but as it was given them by divine Diſpenſation and Limitation,
+<note place="margin">Diſoipule<g ref="char:EOLhyphen"/>rum oppro<g ref="char:EOLhyphen"/>brium.</note> as here in this caſe is ſeen; they were non-pluſt and at a ſtand, <hi>Why could not we cast him out?</hi>
+            </p>
+            <p>And now what ſhall we ſay to this? or rather, what will this ſay to us?</p>
+            <p n="1">1.
+<note place="margin">Opprobri<g ref="char:EOLhyphen"/>um Roma<g ref="char:EOLhyphen"/>norum.</note> For Confutation of our Enemies at <hi>Rome</hi> (and would God we had fewer of them at home) who would caſt con<g ref="char:EOLhyphen"/>tempt on us and our Religion, becauſe we confirm not our Doctrine by Miracles (as they pretend to do:) But if we ſhould go about to make credulous men beleeve, that a houſe flies in the ayr: as that of <hi>Loretto;</hi> That there was a Temple and an Altar in it made by Bees in a Bee-hive; That Waſps were driven away from that Bee-hive by ex<g ref="char:EOLhyphen"/>communication; That a Mule fell down and worſhipped the conſecrated Hoſt paſſing by, &amp;c. If we ſhould fill our peoples heads with ſuch Fopperies as theſe, we ſhould but make our ſelves ridiculous, our Doctrines unprofitable and frivolous. But leaving them to their Judgment, &amp;c.</p>
+            <p n="2">2. For Reflection upon our ſelves at home; as not to be exalted above meaſure upon gifts and endowments,
+<note place="margin">1 Cor. 4.7</note> where<g ref="char:EOLhyphen"/>by God hath made any of us to differ from others, becauſe he can enervate our endowments, ſpoyl our abilities, and blaſt our gifts in his Power: ſo not to open the mouth of wonder and murmur upon Gods additions, extenſions and limitations of our gifts, whereby God makes us differ from our ſelves, doing things at one time with that faculty and facility we do not at another: If we preach better at one time then at another, if you hear or pray and meditate better at one time then at another, we muſt all ſtop the mouths of murmur and wonder, not think it ſtrange, becauſe God can make the thigh of our abilities (like <hi>Jacob</hi>'s) to be ſinew-ſhrunk,
+<note place="margin">Gen. 32 25 1 Kin. 13 4</note> and the hand of our endowments (like <hi>Jeroboam</hi>'s)
+<pb n="11" facs="tcp:135576:7"/>to be withered at his pleaſure.</p>
+            <p>And ſo much for that matter, in reference to the former Queſtion, <hi>Why could not we caſt him out?</hi>
+            </p>
+            <p>And now for the Text it ſelf: <hi>This kind can come forth by nothing, but by Prayer and Faſting.</hi>
+            </p>
+            <p>And yet before we can well come at any part, anſwer ſhould be made to two or three Queſtions about the whole:</p>
+            <p>As, firſt, <hi>Why God</hi>—</p>
+            <p>But let the Potſheards queſtion the Potſheards of the Earth; Shall man expoſtulate with his Maker? Yes,
+<note place="margin">Iſai. 45.9.</note> That glorious Creature the Sun ſtrikes not with his beams the poor Mathematician dead, who aſſays by his Inſtruments on his Molehill to take its Dimenſions: Yea the Glorious Creator, the great God, permitteth men his Creatures to enquire into his incomprehenſible Perfections, and to ſearch into his providential and judicial proceedings, ſo it be with holy amazedneſs, and awful wonder: With Reverence then be it ſpoken and heard, queſtioned and reſolved,</p>
+            <q>
+               <label type="milestone">
+                  <seg type="milestoneunit">Queſtion. </seg>1</label> Why God permitteth Satan ſo to Rage and Tyrannize over the Sons of Men?</q>
+            <p>This Queſtion may be reſolved by the way of <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>Firſt, For the Truth of it, That it is ſo:
+<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> Queſtionleſs God may and doth give up his own Children (as well as others) into the hands of the Devil for a time, and permit him to tempt them; <hi>By vexing and ſmiting their Bodies,</hi>
+               <note place="margin">Job 2 6. Luk. 13.16 John 13.2 1 Sam. 16 14 2 Cor. 12 7</note> as he did <hi>Job</hi>'s, and that Daughters of <hi>Abraham</hi> for eighteen years: <hi>By troubling and buffetting their ſpirits,</hi> as he did <hi>David</hi>'s, even as well as <hi>Ahab</hi>'s, <hi>Paul</hi>'s as well as <hi>Judas</hi>'s or <hi>Saul</hi>'s: Oft tempting them <hi>To</hi> ſin, then terrifying them <hi>For</hi> ſin (like himſelf.) All which being reſiſted, add more to the ſor<g ref="char:EOLhyphen"/>rows then to the ſins of Gods Children; the ſin of them remaining not ſo much upon theirs, as upon the Devils ſcore: And in that temptation to <hi>David</hi>'s ſin of numbering the people,
+<note place="margin">1 Chr. 21.1 <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> though it be imputed not only to the Devil and his malice in one place, but alſo to God and his anger in an<g ref="char:EOLhyphen"/>other;
+<pb n="12" facs="tcp:135576:8"/>yet God doth no way help Satan with any further power then firſt he gave him as his Angelical Creature; and the Devil thinks he hath enough in that, with Gods per<g ref="char:EOLhyphen"/>miſſion.</p>
+            <p>Well, You ſee here the Truth of it, that it is ſo; That God doth permit Satan for a time to make bold with Gods own, as well as others.</p>
+            <p>Now for the Manner and Occaſions,
+<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> How it comes to be ſo; and by the way let us note, that Though the evil one hath power and ability enough Natural to do this, as an Angel; yea will and deſire enough Habitual to do this, as an Adverſary and Devil:
+<note place="margin">As ſome Engliſh Divines obſerve, <hi>Mr Dow<g ref="char:EOLhyphen"/>name, Mr Rogers, Mr Goodwin.</hi> Job 2.3.</note> yet he muſt further have power, which they call Moral, that is, leave and commiſſion from God, or he cannot do this; for he is in Chains everlaſting that he cannot break. And God ſeems to grant him leave and commiſſion upon a <hi>Threefold Occaſion.</hi>
+            </p>
+            <p n="1">1. Upon the <hi>Devils own motion and petition;</hi> As in the caſe of <hi>Job,</hi> God aſcribed it to the Devils <hi>motion, [Thou movedſt me againſt him, &amp;c.]</hi> And in the caſe of <hi>Peter</hi> and the reſt,
+<note place="margin">Luk. 22.31</note> to the Devils <hi>petition, [Satan hath deſired to have the ſifting of you, &amp;c.]</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Question. </seg>
+               </label> But will God put or permit ſuch croſſes and temptations on his righteous ſervants for the Devils ſake? Was it not enough that God knew his integrity, but a man muſt ſuffer that the Devil may know it alſo? Shall a good Soul ſuffer ſuch painful evil for the Devils pleaſure?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſwer. </seg>
+               </label> No, not ſo; for ſuch Motions and Petitions from Satan are by interpretation the Devils Challenges given to Gods ſervants, calling and ſingling out now one, and then another to this ſpiritual Combat, Conflict or Duel, as he did <hi>Job,</hi> the Diſciples,
+<note place="margin">2 Cor. 12.7</note> and the Apoſtle <hi>Paul:</hi> In plain terms, the Devil challengeth them, and God gives leave, (which is ſo accepted as an Anſwer to the Challenge,) his Accuſation of <hi>Job</hi> was a Challenge: And yet, not to ſatisfie the Devils importunity, but to ſtop the mouth of his calumny and re<g ref="char:EOLhyphen"/>proach, not to pleaſe or gratifie the Devil, but to ſhame
+<pb n="13" facs="tcp:135576:8"/>and torment him as it were before the time:
+<note place="margin">Mat. 8.29</note> And of purpoſe ſo ordained by God, that if we proſper in the fight and win the day, we may have the honor, &amp; he the ſhame of the foyl: If not, being worſted in the aſſault for a time, that yet he may fail in his expectation of an entire Conqueſt, and even then when he thinks to make a ſpoyl of us, he be forced to give over his prey, grate and gall himſelf that he was ſo fair for it and miſt it. The lot of every true Chriſtian is like that of <hi>Gad,</hi> as his father <hi>Jacob</hi> in bleſſing ſaid,
+<note place="margin">Gen. 49.19</note> 
+               <hi>A Troop or Hoſt ſhall overcome him, but he ſhall overcome at laſt.</hi> And though he may complain that Gods arrows,
+<note place="margin">Pſal. 38.2.</note> dipt in the cup of trembling, ſtick faſt in him, like <hi>Job</hi> and <hi>David;</hi> yet theſe were not for deſtruction, but for tryal; as Bullets ſhot againſt armor of proof, not to hurt it, but to praiſe it; In which caſe Chriſtians are brought forth not as Malefactors to ſuffer, but as Champions to triumph: So that the Devil may thank his own <hi>motion</hi> and <hi>petition</hi> for his own over<g ref="char:EOLhyphen"/>throw and ſhame. The firſt Occaſion.</p>
+            <p n="2">2. Upon the <hi>Churches juſt ſentence of Excommunication,</hi>
+               <note place="margin">Clave non errante.</note> rightly and duly adminiſtred for ſome crying ſins and ſcandalous offences: An heavy Ordinance, which caſts men out of the Church into ghoſtly torments and ſpiritual agonies in Conſcience by Satan. S<hi rend="sup">t</hi> 
+               <hi>Paul</hi> may well ſay,
+<note place="margin">2 Cor. 2 6.</note> 
+               <hi>Sufficient is this Puniſhment, &amp;c.</hi> which cutteth men off from communion with the Saints of God: <hi>Sufficient</hi>] indeed which cutteth men off from communion with God himſelf, the God and all the Good of the Saints: <hi>Sufficient</hi>] indeed for diſmal Conſequences, the hiding and withdrawing of the light of his Countenance, the witneſs of his Spirit, and the comforts of his gracious Preſence. <hi>Sufficient to ſuch a one, &amp;c.</hi>] He needs no more puniſhment to be ſure, created Nature being capable of no greater here.</p>
+            <p>This is the Caſe of the inceſtuous <hi>Corinthian;</hi> and it ad<g ref="char:EOLhyphen"/>mits of two heavy Aggravations in that very Text,
+<note place="margin">1 Cor. 5.4, 5</note> both from the Judg and Executioner.</p>
+            <p n="1">1. <hi>In the Name and with the Power of the Lord Ieſus Chriſt,]</hi>
+               <note place="margin">Verſe 4</note>
+               <pb n="14" facs="tcp:135576:9"/>That is, by a Commiſſion from Chriſt, which iſſuing out in his Name, when the Church proclaims it on Earth, Chriſt ſigns it in Heaven: And this is an heavy caſe, to be cut off and caſt out by Chriſt the Redeemer, by Jeſus the Saviour: It is not a ſmall cloud that will hide this Sun,
+<note place="margin">Rev. 6 16</note> not a light matter that will anger this Lamb.</p>
+            <p n="2">2.
+<note place="margin">Verſ. 5. 1 Pet. 5.8 Rev. 12.9 Pſa. 27.12</note> 
+               <hi>To deliver ſuch an one unto Satan]</hi> the grand Adver<g ref="char:EOLhyphen"/>ſary of Mankind the Devil; And this alſo is an heavy caſe: <hi>David</hi> deprecates it as a fearful evil <hi>To be given over unto the will of his enemies,</hi> though but corporal and temporal; Of how much deeper deprecation may it be thought worthy to be delivered up unto the will of <hi>The Enemy</hi> ſpiritual and immortal, who is big with Malice, never ſatisfied but with blood and death.
+<note place="margin">1 Sam 22.18.</note> 
+               <hi>Fall upon him Doeg,</hi> was an hard ſaying of <hi>Saul; Fall upon him Devil,</hi> a harder ſaying of God.</p>
+            <p>And yet that ſame Text affords as many Extenuations, both from the Reſtraint and End.</p>
+            <p n="1">1. <hi>For the deſtruction of the fleſh.]</hi> Lo! Satan is reſtrain<g ref="char:EOLhyphen"/>ed in deſtroying;
+<note place="margin">Pſ. 104, 26 Iob 38.11</note> That Leviathan hath bounds ſet him, as well as that Element he plays in, <hi>[Hitherto ſhalt thou come and no further,</hi>
+               <note place="margin">Iob 1.12</note> 
+               <hi>and here ſhall thy proud waves be ſtayed:]</hi> As there in <hi>Job</hi>'s caſe, firſt reſtrained to his Goods and Chil<g ref="char:EOLhyphen"/>dren <hi>[Hitherto and no further,]</hi>
+               <note place="margin">Iob. 2.6.</note> then to his Body only <hi>[Hi<g ref="char:EOLhyphen"/>therto and no further.]</hi> So here in the Corinthians caſe, the Deſtroyer is reſtrained to the fleſh, <hi>[For the deſtraction of the Fleſh;]</hi> Hitherto ſhalt thou come, but no further, and here ſhall thy proud waves be ſtayed.</p>
+            <p n="2">2. <hi>For the deſtruction of the fleſh, That the ſpirit may be ſaved in the day of the Lord Jeſus.]</hi> Lo! Satan is ordered and overruled to another End then he intends; not to ac<g ref="char:EOLhyphen"/>compliſh,
+<note place="margin">1 Tim. 1.19 2 Tim. 3.13 2 Pet. 2.20</note> but to ſpoyl his own works, (however he get his own end with Hypocrites, carrying them on to more ſin, waxing worſe and worſe, their latter end worſe then their beginning;) but with Gods own he is compelled to Gods end;
+<note place="margin">2 Cor. 12.7</note> As there in <hi>Pauls</hi> caſe, <hi>That he might be humbled,</hi> to that end and no other: So here in the Corinthians caſe. <hi>That
+<pb n="15" facs="tcp:135576:9"/>his fleſh might be deſtroyed, and his ſpirit ſaved;</hi> to this end,
+<note place="margin">Rom. 6.6. Rev. 3 2.</note> and no other; That ſin might decreaſe, and grace increaſe; That the old man might be crucified, and the new enlarged in him.</p>
+            <p>Thus by the Devils Commiſſion upon the Churches Cenſure for ſcandalous Crimes, which is the ſecond Occaſion.</p>
+            <p n="3">3. Upon Gods own Excommunication, by <hi>Divine De<g ref="char:EOLhyphen"/>ſertion,</hi> (the Church neglecting her office in that kind:) God himſelf ſometimes doth cut off and caſt out (as it were) excommunicate mens ſpirits from his gracious Preſence, and deliver them up to the Devil, by terrors, to fright them back, and whip them home to himſelf again; As in the caſes of <hi>Job</hi> and <hi>David,</hi> giving them occaſion to ſay of ſuch ter<g ref="char:EOLhyphen"/>rors preventing ſin, as <hi>David</hi> to <hi>Abigail</hi> preventing blood, <hi>Bleſſed be thou of the Lord, that thou haſt met me this day;</hi>
+               <note place="margin">1 Sam. 25.32.</note> 
+               <hi>and bleſſed be the Lord God of Iſrael, which ſent thee this day to meet me, &amp;c.</hi> God often ſets the Devil to hedg up the way of Chriſtians with his Terrors, and evil men with Afflictions and Perſecutions, as it were with thorns, as was threatened or promiſed the Church of old,
+<note place="margin">Hoſea 2.6</note> 
+               <hi>[I will hedg up thy way with thorns, &amp;c.]</hi> And bleſſed thorns which hide and ſtop every path to ſin.</p>
+            <p>Upon all theſe Occaſions God grants the Devil ſome power in commiſſion in common (as it were) over Good and Bad, but with great difference. Over <hi>the Bad,</hi>
+               <note place="margin">Ephe. 6.12 Epheſ. 2.2 2 Tim. 2.26 1 Cor 12 2 2 Cor 4.4.</note> as their Ruler, <hi>[The Rulers of darkneſs of this world;]</hi> as their Head, <hi>[Working in the Children of Diſobedience;]</hi> as their Con<g ref="char:EOLhyphen"/>queror, <hi>[Taken captive by him, &amp;c.]</hi> as their God, <hi>[The God of this world hath blinded their minds, &amp;c.]</hi> Over <hi>the Good</hi> only as a Jaylor over his Priſoners: For a righteous Judg may commit his own ſon that is a Malefactor into the hands of a Jaylor, not at his abſolute arbitrary power to kill, or rack, or whip at his will and pleaſure, but according to war<g ref="char:EOLhyphen"/>rant and commiſſion: And thus God commits ſome of his own into the hands of this Jaylor, as by the particular war<g ref="char:EOLhyphen"/>rant
+<pb n="16" facs="tcp:135576:10"/>appears; This Warrant is recorded, by which the Jay<g ref="char:EOLhyphen"/>lor is in greater Chains then the Priſoners;
+<note place="margin">Rev. 2.10.</note> 
+               <hi>Behold, the De<g ref="char:EOLhyphen"/>vil ſhall caſt ſome of you into Priſon, that ye may be Tryed, And ye ſhall have Tribulation Ten days.</hi> The Church of <hi>Smyrna</hi> (whom it concerned) is bid, <hi>Behold;</hi> Behold their Jaylor as well as themſelves his Priſoners; Behold their Jaylor in Chains of <hi>Three</hi> Limitations, Limitations in all the Circum<g ref="char:EOLhyphen"/>ſtances of <hi>Perſons, Time,</hi> and <hi>Place</hi> of Affliction. 1. In the <hi>Perſons</hi> and Number of the Afflicted; The Devil would have All in his hands, but he is there in Chains, <hi>[Not All, but ſome of you.]</hi> 2. In the <hi>Place</hi> and Nature of the Afflic<g ref="char:EOLhyphen"/>tion; The Devil would have it Hell and Deſtruction, but he is there alſo in Chains, <hi>[Not ſo, but into Priſon and Tribu<g ref="char:EOLhyphen"/>lation, that ye may be Tryed.]</hi> 3. In the <hi>Time</hi> and Duration; The Devil would have it like his own Chains, Everlaſting, but he is here too in Chains of Limitation, <hi>[Not ſo, but for Ten days:]</hi> And then ſhall be heard the ſaying that was prophecyed, <hi>Priſoners go ye forth, and ye that are in darkneſs ſhew your ſelves:</hi>
+               <note place="margin">Iſai. 49.9.</note> Therefore <hi>Fear none of theſe things which thou ſhalt ſuffer; but be thou faithful unto death, and I will give thee a Crown of Life.</hi>
+            </p>
+            <p>And thus for the Manner and Occaſions of Gods grant<g ref="char:EOLhyphen"/>ing the Devil ſuch Power over the ſons of men, <hi>viz. The Devils Petition, The Churches Excommunication,</hi> and <hi>Divine Deſertion.</hi>
+            </p>
+            <p>Now for the Reaſons Why, and Grounds whereon it is ſo;
+<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> Wherein my Brevity ſhall redeem the time of my for<g ref="char:EOLhyphen"/>mer Prolixity; And in this regard, 'tis well that I ſpeak to ſo many, who can conceive faſter, and ſee further then I can ſpeak.</p>
+            <p>God gives way to the Devils Rage and Tyranny over the ſons of men,</p>
+            <p n="1">1. For the greater Honour of his Providential and Judi<g ref="char:EOLhyphen"/>cial Diſpenſations, both of <hi>Mercy</hi> and <hi>Judgment: Of Mercy</hi> to the Good to prevent their ſin, in uncollering Satan (as the Shepherd doth his Dog) to fetch them in when they
+<pb n="17" facs="tcp:135576:10"/>offer to ſtray: <hi>Of Judgment</hi> to the Bad, to puniſh their ſin, ſetting evil ſpirits againſt evil men,
+<note place="margin">Iſa. 19.2.</note> as he did the <hi>Egyptians</hi> againſt the <hi>Egyptians.</hi>
+            </p>
+            <p n="2">2. For the greater Deteſtation of Sin, and ſecret heart-riſing againſt it; That men might learn to hate it with the moſt perfect hatred, as the moſt perfect pernicious evil; worſe indeed then either Hell or Devil, becauſe it made them ſo: And were it not for ſin and its luſts in the world, the Devil might ſpare his pains, as having nothing to do in the world, confine himſelf to his own Hell, and keep his breath to cool his own torments: Therefore as the Worm bred in the Tree devoureth the Tree, ſo the Rage and Ty<g ref="char:EOLhyphen"/>ranny of Satan brought in by Sin (by the Almighty Mercy) carries Sin out again, by teaching men to abhor and eſchew it, becauſe of the curſed Plagues and diſmal Conſequences that attend it, (as in this caſe of our Text,) which being ſo Terrible in this life,
+<note place="margin">1 Tim. 1.20</note> muſt needs be Intolerable in the life to come: <hi>Hymeneus and Alexander</hi> were <hi>delivered unto Satan, that they might learn not to blaſpheme.</hi>
+            </p>
+            <p n="3">3. For the greater addition to the Devils own evil; to heap unquenchable coals of fire upon his own head; to aggravate his Doom, to encreaſe his own Condemnation for continu<g ref="char:EOLhyphen"/>ing his tyrannous hate and malice againſt man, even though he prevail not: And if he do proſper in his malicious Ty<g ref="char:EOLhyphen"/>ranny and Temptations, and prevail, what doth the Devil but carry firebrands to his own Hell, and fuel to his own eternal flames? For, As the Joys of Heaven and Salvation are nothing diminiſhed,
+<note place="margin">Luke 15.7 10.</note> but rather encreaſed with the Num<g ref="char:EOLhyphen"/>ber of the Saved, <hi>There being joy among the Angels in Heaven for the Repentance and Converſion of Sinners,</hi> and joy among the Saints in Heaven for the perfect Salvation of Sinners,
+<note place="margin">Heb. 11 40</note> welcoming their Acceſſions with their glorious Greetings: So are the Torments of Damnation nothing abated, but rather augmented by the Multitudes of the Damned; elſe what meant that man in Hell tormented, to deſire that his five Brethren might be warned, <hi>leſt they alſo come into this
+<pb n="18" facs="tcp:135576:11"/>place of Torment?</hi>
+               <note place="margin">Luk. 16.27, 28. Be this a Parable, and ſerve not for our Concluſi<g ref="char:EOLhyphen"/>on, yet it may for our Illu<g ref="char:EOLhyphen"/>ſtration. Acts 23.8.</note> Was it his Charity to his Fathers houſe? No, there is no ſuch thing in Hell; It might be his ſelf-love unto himſelf, to prevent this addition to his own Tor<g ref="char:EOLhyphen"/>ments by his Brethrens Condemnation.</p>
+            <p n="4">4. For the greater Conviction of incredulous men, that ever were and ſtill are in the world, who are <hi>Sadduces</hi> in their Judgments, who ſay, <hi>There is neither Angel nor Spirit,</hi> ſcarce beleeve there is any Devil: Therefore God, to con<g ref="char:EOLhyphen"/>vince their Incredulity by apparent demonſtration to Senſe and Reaſon, permitteth the Devil to play his Reaks with them, that they may know there is a Devil. Thus the proud ambitious man knows not whether there be any Devil or no, but when this evil Spirit hath gilt the way (like the Snail) by which he climbs and falls to his own ruine and ſhame, then he cries out, <hi>The Devil was in't.</hi> The malicious wrathful man knows not whether there be any Devil or no; but when injuries have ſo over-heat his blood, that his anger is boyled up and ripened to murther, and murther to the Halter, then he cries out, <hi>The Devil is in't.</hi> The earthly covetous man knows not whether there be any Devil or no; but when he hath ſo long panted after the duſt of the Earth, and admired a piece of <hi>red clay,</hi> till he hath buried his heart in his own dunghil,
+<note place="margin">1 Tim. 6.9.</note> and fallen into that <hi>ſnare,</hi> then he cries out, <hi>The Devil is in't.</hi>
+            </p>
+            <p>Theſe are the Reaſons that anſwer to the firſt Queſtion, <q>
+                  <hi>Why God ſuffers Satan thus to rage, &amp;c.</hi>
+               </q>
+            </p>
+            <q>
+               <label type="milestone">
+                  <seg type="milestoneunit">Queſtion. </seg>2</label> 
+               <hi>But why was the Devil more Tyrannous and Outragious in Chriſts Time, then in Former Ages? As appeared in this and other Caſes.</hi>
+            </q>
+            <p>It might be (for I love not to be peremptory in ſuch Points of Cauſality) for three Reaſons; I ſay, it might be,</p>
+            <p n="1">1. Becauſe this ſtrong man armed met then with a ſtronger then he,
+<note place="margin">Luke 11.21, 22.</note> able to bind him, overcome him, and take from him both his arms and ſpoyls; one whoſe <hi>main</hi> buſi<g ref="char:EOLhyphen"/>neſs of coming into the world was <hi>To deſtroy the works of the Devil;]</hi>
+               <note place="margin">1 Joh. 3.8.</note> And this was enough to make him ſo deſperately</p>
+            <pb n="19" facs="tcp:135576:11"/>
+            <p n="2">2. Becauſe of Occaſion to be miniſtred,
+<note place="margin">Mat. 12.28</note> by the Devils tyrannous poſſeſſion, of Chriſts manifeſting himſelf to be the Son of God by his Divine Ejection: If the Devil had not entered in, there had been no occaſion for Chriſt to caſt him out; Therefore the Devils Rage and Tyranny then might be much to the ſame purpoſe,
+<note place="margin">John 9.3.</note> as was that mans being born blind, <hi>That the Works of God might be made mani<g ref="char:EOLhyphen"/>feſt, &amp;c.</hi>
+            </p>
+            <p n="3">3. Becauſe the Devil knew his Time was ſhort;
+<note place="margin">Rev. 12.12 Rom. 6.20</note> To be trod under foot ſhortly (as the Spirit ſaid to S<hi rend="sup">t</hi> 
+               <hi>John,</hi>) im<g ref="char:EOLhyphen"/>puting his great wrath to his knowledg of his ſhort time; <hi>Having great wrath, becauſe he knoweth that he hath but a ſhort time.</hi> Like ſome ſpiteful Tenant, that fells the Trees, racks the Grounds, burns the Gates, ruines the Houſe, ſpoyls and waſtes all that he can, becauſe he knows his Leaſe nigh ex<g ref="char:EOLhyphen"/>pired, not to be renewed, but himſelf and all his ſhortly to be outed: So in our caſe, the Devil did the more madly ruffle and rant it in Chriſts time, becauſe he knew his time was ſhort,
+<note place="margin">1 Ioh. 3.8.</note> and that there was one then in the world that would make ſhort work with him and all his works; And therefore the Devil would make ſhort work on't,
+<note place="margin">Rev. 22.11</note> that they who are prophane, unjuſt and filthy, may be ſo ſtill, and more then ſo, that they may be damned.
+<note place="margin">Rom. 9.2<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> And therefore God will make ſhort work too upon Earth, that they who are righteous and holy may be ſo ſtill, and more then ſo, may perſiſt and encreaſe therein, that they may be ſaved: And were it not for this ſhort work of Gods, wherein he out-does the Devil,
+<note place="margin">1 Pet. 4.18.</note> the Righteous and Elect would more ſcarcely be ſaved; Therefore for their ſakes is this as well as that ſhort work of God upon Earth,
+<note place="margin">Mat. 24 22</note> in making haſte to convert, and to ſanctifie, and to ſave all that will be convert<g ref="char:EOLhyphen"/>ed, ſanctified and ſaved, <hi>quickly,</hi> before it be too late; for,
+<note place="margin">Rev. 22.12</note> 
+               <hi>Behold I come quickly, and my Reward is with me, &amp;c.</hi>
+            </p>
+            <p>Now conſider, If the Devils time were ſhort then, how much ſhorter is it now, when ſixteen hundred years of that ſhort time are already gone? If S<hi rend="sup">t</hi> 
+               <hi>John</hi>'s time might be
+<pb n="20" facs="tcp:135576:12"/>truly called,
+<note place="margin">1 Joh. 2 18</note> as it was, <hi>The laſt time;</hi> If in S<hi rend="sup">t</hi> 
+               <hi>Peter</hi>'s time it might be truly ſaid,
+<note place="margin">1 Pet. 4.7. Phil. 4 5. Heb. 10 37 1 Cor. 7 29 Heb. 10.25</note> as it was, <hi>The end of all things is at hand;</hi> If in S<hi rend="sup">t</hi> 
+               <hi>Paul</hi>'s time it might be proclaimed, as it was, <hi>The Lord is at hand,</hi> and <hi>But a little while, The time is ſhort:</hi> Then ſurely after ſo long tract of time, muſt it needs be more true when ſo many hundred years of that <hi>laſt time,</hi> of that <hi>end at hand,</hi> of that <hi>quickly</hi> and <hi>little while,</hi> are already ſpent &amp; paſſ<g ref="char:EOLhyphen"/>ed by? Out of doubt the Devils time is much ſhorter Now, and conſequently his Wrath muſt needs be greater Now: Enough to ſtop the mouth of wonder, to ſee him beſtir him<g ref="char:EOLhyphen"/>ſelf to his utmoſt,
+<note place="margin">2 Cor. 4.4. Ioh. 12 31.</note> as if he were mad; to play his pranks and reaks in the world more then ever, like a God and Prince
+<note n="*" place="margin">As ſecur<g ref="char:EOLunhyphen"/>ed by his <hi>[Circuivi]</hi> Job 1 7. <hi>More prin<g ref="char:EOLhyphen"/>cipum lo<g ref="char:EOLhyphen"/>quitur.</hi> 2 Cor. 12.20.</note> of this world, becauſe he muſt needs know now his time is ſhorter: Now no marvel to ſee him labour, and lay about him, to ſtir up in the world all that S<hi rend="sup">t</hi> 
+               <hi>Paul</hi> feared among the Corinthians, <hi>Debates, envyings, wraths, ſtrifes, backbitings, whiſperings, ſwellings, tumults:</hi> And more then that, to raiſe up amongſt men <hi>Fears, Jealouſies, Plots, Con<g ref="char:EOLhyphen"/>ſpiracies,</hi>
+               <note place="margin">Iames 4.1.</note> 
+               <hi>Tumults, Wars, Fightings, Luſts,</hi> and what not? To bring all ſorts of ſins into faſhion if he could, and to convert the whole world into Heatheniſm, Epicuriſm and Atheiſm if he might; as if with <hi>Circe</hi>'s Charm he would turn all men into Swine. Now no marvel to ſee him ſtrive (if it were poſſible) to pull down all True Lights that God hath put up,
+<note place="margin">Rev. 2 5.</note> by throwing at the Candleſtick to ſtrike it down, or to <hi>remove</hi> it, that thereby the Truth of God might not have that Eminence and Evidence as it ought, but that ſome faint ſhadow,
+<note place="margin">Iob 6 6 Humane Laws, hu<g ref="char:EOLhyphen"/>mane Ex<g ref="char:EOLhyphen"/>amples, are both falſe lights becauſe imperfect. The Devil and Sin w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll evade for all</note> ſome corner-diſguize, ſome modifica<g ref="char:EOLhyphen"/>tion, ſome temporizing muſt ſerve the turn; ſerving in ſomething, like the white of an Eg (as in <hi>Job</hi>) that hath no taſte at all. Thus the Devil would have it in the world, if he could but compaſs his ends of taking away, or ſhutting out the true Lights of God, and of ſetting up falſe Lights of his own, thereby to put the fairer gloſs upon his wares of ſin (like deceitful Tradeſmen,) and to counterfeit and diſ<g ref="char:EOLhyphen"/>guize moſt things to men, and moſt men to themſelves; ſo
+<pb n="21" facs="tcp:135576:12"/>that few things or perſons are well known by their names, calling <hi>evil good, and good evil; darkneſs light,</hi>
+               <note place="margin">Iſai. 5.20.</note> 
+               <hi>and light darkneſs,</hi> as in <hi>Iſaiah.</hi> Thus, and worſe then thus, would the Devil in his great wrath make it in the world, if he might; and all, becauſe he knows that his time is ſhort.</p>
+            <p>Men and Brethren, let me ſpeak unto you freely; Though I raiſe no mutinous or tumultuous thoughts againſt preſent Government; though I make not the Pulpit à priviledg'd place to traduce Superiors, and to preach my Self, (two things that I never did, never will,) Not daring to aſcend into it without leaving Self at the feet and loweſt ſtep of it; as knowing that it never ſpeeds better either with Paſtor or People within, then when Self is left without the Church-doors, with <hi>Abrahams</hi> Aſs and Servants, fartheſt off from the place of Worſhip, (for 'tis Self that clogs or ſtrikes off our Charriot wheels that we draw heavily, 'tis Self that makes the Charriot of our beſt deſires ſo long in coming:) Yet ſeeing I ſpeak to ſo knowing an Aſſembly, and where there is moſt knowledg, there is (or ſhould be) the moſt charity, I ſhall preſume here to be taken candidly, and crave the priviledg of my Function and of this Place, to ſpeak plainly without Calumniation or Flattery.</p>
+            <p>There are two notable Signs of the Devils ſhort time, and of Chriſts quick coming to end and judg the World: The one is, That general dead ſleep of deep Security, like that of the old world in the days of <hi>Noah,</hi>
+               <note place="margin">Mat. 24 38</note> 
+               <hi>They were eating and drinking, marrying and giving in marriage, and knew not, &amp;c.</hi> The other is, That fearful Deluge of overflowing Impiety, wherein the Apoſtle was a Prophet to <hi>Timothy: This know alſo, that in the laſt days Perillous Times ſhall come;</hi>
+               <note place="margin">2 Tim. 3.1 2 3, 4, 5.</note> 
+               <hi>For men ſhall be Lovers of their own ſelves, Covetous, Boaſters, Proud, Blaſphemers, Diſobedient to Parents, Unthankful, Un<g ref="char:EOLhyphen"/>holy, without natural Affection, Truce-breakers, falſe-Accuſers, Incontinent, Fierce, Deſpiſers of thoſe that are good, Traytors, Heady, High-minded, Lovers of Pleaſures more then Lovers of God, Having a form of Godlineſs, but denying the Power thereof,
+<pb n="22" facs="tcp:135576:13"/>From ſuch turn away.</hi> I have not omitted nor added one word in the reading: Put now your fingers in the print of theſe words, and be not faithleſs, but beleeve, that Chriſt and his Apoſtle were true Prophets indeed by the fulfilling of their Prophecies in the world,
+<note place="margin">
+                  <hi>Mat.</hi> 24.3.</note> in ſign of Chriſts coming and of the worlds ending in very ſhort time, whereby the Devils time is ſhort:
+<note place="margin">Ecclus. 37.14</note> For ſtand but up in the watch-towers of each your minds, let looſe your thoughts and look a<g ref="char:EOLhyphen"/>broad in the world, and ſay, If ever any Age ſince the world was created did ſleep and ſnort More ſecurely in a Calm, then ours now in a Storm? More ſenſleſs and fearleſs of the Wrath of God? (Tell ſome men of a Judg, and they ſay, <hi>Quis,</hi> who is he? Of a Judgment, and they cry, <hi>Quando,</hi> when is it? Or of Hell, and they cry, <hi>Ubi,</hi> where is it?) More Erroneous and Heterodox about the Works of God; miſ-interpreting his Diſpenſations, and croſs-conſtruing moſt of his Proceedings, Judgments for Mercies, and Mer<g ref="char:EOLhyphen"/>cies for Judgments; moſt men tuning all both their inward and outward ſenſes to the key of their own intereſts and affections, preſuming God muſt needs be well pleaſed or diſpleaſed when they are ſo. But beleeve me (Chriſtians and Brethren) beleeve me, The ſtrange Stupidity and deſperate Obſtinacy of a People are more fearful then the Puniſh<g ref="char:EOLhyphen"/>ment: For when a Nation grows ſtupid and ſenſleſs at Gods Chaſtiſements, and doth not or will not ſee Gods mean<g ref="char:EOLhyphen"/>ing in them,
+<note place="margin">Hoſea 9 1. Iſaiah 1.5. Eze. 16.42 <hi>Auferam Zelum.</hi>
+               </note> with them in <hi>Hoſea,</hi> there goes out a ſpeech from the higheſt, <hi>Why ſhould they be ſmitten any more?</hi> which comes near to the worſt that God doth ſay, <hi>I will be no more angry;</hi> God being moſt angry when he lets us not ſee that he is ſo.</p>
+            <p>And ask you, What of this? Why I ſay nothing but that, The Devils time is ſhort, and therefore hath ſuch great wrath.</p>
+            <p>Say again, If ever any generation of men in the world did attempt More monſtrous <hi>Babels,</hi> More prodigious Pro<g ref="char:EOLhyphen"/>jects of <hi>Bedlam</hi> Ranting Outrages, let looſe More Reins to Heaven-affronting deſperate Impieties, Cloud-bruſhing
+<pb n="23" facs="tcp:135576:13"/>Villanies, and curſed Prophaneneſſes, then Ours Now: If ever there were More Pride ruſhling and rattling, More Envy ſnarling, More Hypocriſie fawning and deceiving, and (though I ſay not More Oaths ringing,
+<note place="margin">Whoredom, Inceſt, and inceſtuous Marriages.</note> and Drunken<g ref="char:EOLhyphen"/>neſs reeling, yet) More Uncleanneſs impudently jetting in the ſtreets, then in Ours Now.</p>
+            <p>Say, If ever the Goſpel in the ſincere and powerful Preaching thereof was expoſed to more ſcorn; Or Piety in the true practiſe thereof more diſdainfully trampled on both by Scums and great Ones; Or the Lords Day more irreligiouſly daſht out of countenance by prophane Liber<g ref="char:EOLhyphen"/>tiniſm and countenanced diſhonors, then Now it is: <hi>Hor<g ref="char:EOLhyphen"/>reſco referens,</hi> I ſpeak it with bitterneſs, would God I had nothing whereof to accuſe my dear diſtracted Nation: I know there are ſome good Laws in this kind, but where is the execution to be found? How it is with Superior Magi<g ref="char:EOLhyphen"/>ſtrates above, I know not; But with Inferior Officers here below (for the moſt part) I know it is ſo faint and cold, as if they were but half perſwaded againſt others Impieties, or of their own Authorities; whereby it comes to paſs that ſuch haynous Crimes are ſo ſlightly puniſhed, if not rather provoked.</p>
+            <p>And ask you again, What of this? Why I ſay nothing, but that, It is the Devils great wrath, becauſe he knows his time is ſhort, and <hi>the Coming of the Lord draweth nigh,</hi>
+               <note place="margin">Iame 5 8.</note> to cut down this luxuriant Crop of the Worlds Prophaneneſs by his inſtant approach to Judgment.</p>
+            <p>Verily, I think, ſince <hi>Iſrael</hi> arrived <hi>Canaan,</hi> ſcarce one Generation ever ſaw ſuch ſtupendious Mixtures of Mercies and Judgments uſhered in and adorned with Miracles;
+<note place="margin">Miranda etiamſi non miracula.</note> ſuch interweavings of Miraculous Mercies and Miraculous Judgments, as ours have ſeen; Like thoſe Rhetorical Ele<g ref="char:EOLhyphen"/>gancies ſo frequent among the Prophets, as that in <hi>Hoſea,</hi>
+               <note place="margin">Hoſ. 2.1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>I will allure her, and bring her into the Wilderneſs, and ſpeak comfortably unto her;</hi> as this of God with us, Bringing us as into a Wilderneſs, handling us as with <hi>Eſau</hi>'s hands, and
+<pb n="24" facs="tcp:135576:14"/>yet ſpeaking comfortably unto us, as with <hi>Jacob</hi>'s voyce: And if this heavenly ſtrain of Divine Eloquence allure us not, I know not what will. Verily this time of ours ſeems like that of diſeaſed people, which Phyſicians call <hi>[The Critical Time,]</hi> wherein the main conjecture lies, whether they be Mending or Ending, according to the effects and ſucceſſes of ſuch utmoſt means.</p>
+            <p>And this I take (under favour of better ſights) to be our Vertical Point, and Critical Time one way or other, for our Mending or Ending: For by ſinning at all times we pro<g ref="char:EOLhyphen"/>voke God; but by ſinning at ſuch a time as This, we dare God to puniſh us,
+<note place="margin">Iſai. 1.24. Ierem 5.9.</note> and to eaſe and avenge himſelf of us: <hi>And ſhall not his Soul be avenged on ſuch a Nation as This?</hi> A Nation overflown with ſuch a Flood of <hi>Spiritual Wicked<g ref="char:EOLhyphen"/>neſſes,</hi>
+               <note place="margin">1 Tim. 4 1.</note> of <hi>Abominable Hereſies,</hi> of <hi>Damnable Doctrines,</hi> and <hi>Doctrines of Devils:</hi> Not whiſpered and muttered in Cor<g ref="char:EOLhyphen"/>ners only by thoſe that mouch up and down to creep into houſes,
+<note place="margin">2 Tim. 3 6.</note> but declared and proclaimed on houſe-tops, open<g ref="char:EOLhyphen"/>ly in the ſtreets of the City, and in publique Meetings through this Land:
+<note place="margin">Mr <hi>Caſe</hi> in one of his <hi>Sermons</hi> before the Houſe of Commons. Rev. 12 15</note> So that moſt of former Errors (as one uſeth the words of <hi>Calvin</hi>) may ſeem but <hi>Tolerabiles inep<g ref="char:EOLhyphen"/>tiae,</hi> as pardonable toys and trifles in compariſon.</p>
+            <p>And ask you again, What of this? I ſay no more but that, This is part of <hi>The Flood of Water</hi> which <hi>the Serpent caſt out of his mouth</hi> in his great wrath, becauſe his time is ſhort.</p>
+            <p>There are ſome printed Books and Treatiſes that will give you large Catalogues of theſe horrid Evils: There are ſome black Bills of theſe ſad particulars, where you that can may read them; my heart and tongue will not ſerve me to ſpeak them in this Congregation,
+<note place="margin">Epheſ. 5.3. Mr <hi>Obadi<g ref="char:EOLhyphen"/>ah Sedg<g ref="char:EOLhyphen"/>wick,</hi> Mr <hi>Vines,</hi> Mr <hi>Ho<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ges,</hi> a<g ref="char:EOLhyphen"/>gainſt He<g ref="char:EOLhyphen"/>reſies and Blaſphe<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>.</note> Things not to be once named among us as becometh Chriſtians.</p>
+            <p>There are ſome printed Sermons preached before the Parliament, wherein theſe accurſed things are ſpread and meaſured before them, their dimenſions taken and found; <hi>For Height,</hi> amounting to no leſs then execrable Blaſphe<g ref="char:EOLhyphen"/>mies, ignominious, contemptuous, diſgraceful Reproaches
+<pb n="25" facs="tcp:135576:14"/>of God, of Chriſt, and of the holy Scriptures, &amp;c. This is a huge daring Height: <hi>For Bredth,</hi> ſpreading to no leſs then deſtructive Confuſion, That they will leave us neither Church nor State, neither Miniſtry nor Magiſtracy, nor Ordinances, neither Duties nor Worſhip, (theſe words are not mine own:) And where are we then? Why,
+<note place="margin">Neer the worſt Ido<g ref="char:EOLhyphen"/>latry of all.</note> Then a mans Luſt ſhall be his Law, a mans Opinion his Bible, and a mans Self his God.</p>
+            <p>And ask you here again, What of This? As they there in the burden of <hi>Dumah,</hi> called to the Watchman,
+<note place="margin">Iſ. 21.11, 12</note> 
+               <hi>What of the night? &amp;c.</hi> the Watchman ſaid, <hi>The morning cometh, and alſo the night, &amp;c.</hi> So may your Watchman ſay, [As ſure as the night ſucceedeth the day, ſo ſure is a National Calamity to be the end of ſuch daring Impieties unrepent<g ref="char:EOLhyphen"/>ed, unlamented, unreformed.] In ſuffering Times under incumbent or impendent Evils, men deal about the Cauſa<g ref="char:EOLhyphen"/>lity, as they were wont in the caſe of <hi>Baſtarday,</hi> when no father could be found, none that would own it, to lay it at the Church door; And who is ſufficient by any Apology for the total averſion of it? I dare not undertake it: This was long ago in print, and I cannot deny it, [The greateſt Traytor to the Clergy is the Clergy:] (Two things God much abominates, <hi>A Partial Judg,</hi> and <hi>a Prophane Prieſt;</hi>)
+<note place="margin">Mat. 10 36</note> The greateſt Foes are ſtill <hi>Thoſe of the ſame Houſe:</hi> Truth Lord; As was ſaid of <hi>Iſrael</hi> after that their ſhameful Ido<g ref="char:EOLhyphen"/>latry, [Not a Judgment for a long time inflicted on it, but had an Ounce of the Calf in it:] So of every perſon, qua<g ref="char:EOLhyphen"/>lity or condition of men afflicted and puniſhed,
+<note place="margin">Hoſ. 13 9.</note> there is a <hi>pound</hi> of Self in it; <hi>Deſtruction is of Self.</hi> Fit therefore that we with others lie down in our ſhame, give God the glory of his Juſtice, beg Mercy, bear the Puniſhment with Thankfulneſs and Patience, with the Church in <hi>Micah, I will bear the wrath of the Lord becauſe I have ſinned against him, until he plead my Cauſe, &amp;c.</hi>
+               <note place="margin">Micah 7.9.</note>
+            </p>
+            <p>This may be called the Chancel-door; but there is ano<g ref="char:EOLhyphen"/>ther, which might be more truly called (in this reſpect) the
+<pb n="26" facs="tcp:135576:15" rendition="simple:additions"/>Church-porch-door, at which that Brat of our Evil will be layd, unleſs by ſerious and ſeaſonable Repentance and Re<g ref="char:EOLhyphen"/>formation it be averted and avoyded. The open impudent profeſſed Blaſphemies, Reproaches, Deſpights, Contempts of a People <hi>Againſt their God,</hi> (making him as Man, that he ſhould ſin, and be the Author not only of the act, but alſo of the ſinfulneſs of it;) <hi>Againſt his Holy Son Jeſus,</hi> (ſome denying his Divinity, as No God; others diſgracing his Humanity, calling him Baſtard;) <hi>Againſt his holy Word</hi> the Scriptures, (accounting them but an humane Invention, a meer Shadow, a falſe feigned Hiſtory, a Scarcrow to keep fools in awe;) <hi>Againſt his holy Ordinances,</hi> with all their vital Circumſtances of publique Perſons, Places, Times of Worſhip; ſome by their hypocritical formal frequenting, others by their ignominious contemptuous neglecting, aſ<g ref="char:EOLhyphen"/>perſing and vilifying of them, &amp;c. Theſe ſpiritual Wick<g ref="char:EOLhyphen"/>edneſſes and Church ſins ſo rife in the Land, may be called the Church-door, at which our Evils lie: Theſe (whileſt remaining) will prove the <hi>Achan</hi> and accurſed thing to trouble the whole Hoſt of <hi>Iſrael,</hi>
+               <note place="margin">Ioſh. 7 25</note> the <hi>Jonah</hi> to trouble all the Mariners, until it be caſt (if not with That, into the fire of ſome fit and juſt puniſhments
+<note n="*" place="margin">
+                  <hi>In peccatas evidentiam in poenis e<g ref="char:EOLhyphen"/>dificati<g ref="char:EOLhyphen"/>onem.</hi> Jonah 1.15</note>, or at leaſt) with This, into the Water and Sea of repentant Tears and Lamentations. There have been great thoughts of heart amongſt us about Malignant Parties; But Theſe, Theſe are the Edomites that are moſt like to make a ſhort Cut in our Peace, a long Crack in our Hope, and give our whole State a blow that will hardly be healed: Theſe, Theſe are the Enemies that are moſt likely to ring our Knells, and to proclaim our Fu<g ref="char:EOLhyphen"/>nerals.</p>
+            <p>My meaning is not, that All Differences in Judgment ſhould make breach in Charity and Affections among men; Nor that All Errors in Opinions ſhould be puniſhed by Men; But rather by Chriſtian means of prayer and endea<g ref="char:EOLhyphen"/>vor,
+<note place="margin">2 Tim 2.25, 26.</note> provided if God will open the eyes of our Diſſenting Brethren, and give them Repentance to the Acknowledg<g ref="char:EOLhyphen"/>ment
+<pb n="27" facs="tcp:135576:15"/>of the Truth, that they may Recover out of the Snares of the Devil, and be ſaved;
+<note place="margin">Phil. 3.15.</note> patiently waiting for Gods days of Revealing, either in This their day, <hi>when God ſhall reveal even This unto them;</hi> or in That his Day of Revelation and Appearing,
+<note place="margin">2 Cor. 5.10</note> when All both perſons and things ſhall appear as they are; for get we holineſs to come but once ſafe to Heaven, and we ſhall clearly look through all doubts and difficulties in a moment.</p>
+            <p>And yet I can tell you what ſome Divines of no ſmall note have publiquely preached, and by Order printed:
+<note place="margin">Mr Vines, Mr Obad. Sedgwick.</note> [That Liberty of All Opinions and Religions may be juſt<g ref="char:EOLhyphen"/>ly called the Golden Calf of theſe Times, whereunto many are not unwilling to contribute their ſtrength and policy, and whoſe Birth-day they would call <hi>Feſtum Jehovae,</hi> an Acceptable Day unto the Lord: Are not the Errors, which are rife amongſt us, either by infecting Perſons of Place and Quality, grown into that Boldneſs? Or by carrying away <hi>Barnabas</hi> alſo, crept into that credit? Or by ſpreading far and wide, riſen to that ſtrength, that they do face, if not put into danger of routing, our common Faith, publique Wor<g ref="char:EOLhyphen"/>ſhip, authorized Miniſtry, long and much expected and pro<g ref="char:EOLhyphen"/>miſed Reformation, as hoping to be able to bid fair for a Toleration? Whereby we at home may wonder at our ſelves, and our ſympathizing Brethren abroad do wonder alſo at us, That we ſhould be made the common Sewre to receive the Garbage of other Churches, and that their ſtink<g ref="char:EOLhyphen"/>ing Snuffs ſhould be allowed Candleſticks here in <hi>England:</hi> That Flood-begetting Maxim, <hi>viz.</hi> a Catholique Liberty and Toleration of all Opinions, is to be abhorred and cruſh<g ref="char:EOLhyphen"/>ed. There was a Religion (as one once ſpake before you) <hi>Omnium Deorum,</hi> of all Gods amongſt the old Romans; And there is a Religion <hi>Omnium Sanctorum,</hi> of all Saints now amongſt the Papiſts: And if the Serpent could but wriggle in a Religion <hi>Omnium Opinionum,</hi> of all Opinions amongſt the Engliſh, the Devil himſelf needs to deſire no more; as knowing that if men can ſtep from one Religion
+<pb n="28" facs="tcp:135576:16"/>to All, they will ſoon fall from All Religion to None.] But let this paſs.</p>
+            <p>And let be that Queſtion, Whether any men ſhould be puniſhed for their Religion, and ſuffer for their Opinions, though never ſo erroneous? I ſay, let that Queſtion be made, ſtated, qualified and reſolved how it will: Shall it be a Queſtion alſo, Whether men ſhall ſuffer, in any kind or meaſure, for their open, profeſſed and practiſed Irreligion, though never ſo Deviliſh and Blaſphemous? Againſt a moſt holy God, his holy Chriſt, his holy Spirit, Word and Ordinances? &amp;c. If an unhapyy Boy ſhall foul, or ſpoyl, or loſe his clothes, the rod ſhall whip him; and if he curſe and ſpit in the face of his father, ſtab the heart and rend the bowels of his mother, ſhall there be none to correct him, but many to ſmile upon him? <hi>If one man ſin againſt another, the Judg ſhall judg him:</hi>
+               <note place="margin">1 Sam. 2 25</note> And if a man thus ſin againſt God to the higheſt, ſhall there be none to condemn him, but many to entreat for him? Can Chriſtian Magiſtrates be ſuch un<g ref="char:EOLhyphen"/>chriſtian <hi>Gallio</hi>'s,
+<note place="margin">Act. 18.17</note> as to <hi>care for none of theſe things?</hi> Will godly Rulers be ſuch ungodly <hi>Tiberius</hi>'s as to ſay, That the Gods alone muſt remedy the Injuries offered unto them<g ref="char:EOLhyphen"/>ſelves? Surely if Chriſtian, if Godly, ſuch they cannot, ſuch they will not be; nay if men fearing God, ſuch they dare not be, for the danger of Gods coming himſelf in an<g ref="char:EOLhyphen"/>ger,
+<note place="margin">Eccl. 3 17. Ezek. 34.5, 11.</note> and ſnatching his Work out of his Servants hands in wrathful diſpleaſure, ſaying, <hi>I will judg the righteous and the wicked;</hi> Shall God bid his ſervants, and be put to do it him<g ref="char:EOLhyphen"/>ſelf? Then his whole houſe ſhall rue and ring on't. Chri<g ref="char:EOLhyphen"/>ſtian Magiſtrates and People too were beſt look to it, The one to Rule well, the other to be Ruled well, leſt God ſuf<g ref="char:EOLhyphen"/>fering by us in his Honour, be provoked to daſh us in pieces one againſt another. We have been told of a witty piece of Juſtice done in the Camp by the fire of an hot Iron through a tongue that was ſet on fire of Hell,
+<note place="margin">Iam. 3 6</note> for caſting forth of his mouth ſulphureous ſparks of Blaſphemies.
+<note place="margin">Luk. 3.14.</note> The Souldiers in <hi>Luke</hi> came After all (both people and Publi<g ref="char:EOLhyphen"/>cans)
+<pb n="29" facs="tcp:135576:16"/>with their Religious Queſtion, <hi>What ſhall we do?</hi> And have been cenſured as the lotheſt, becauſe there the lateſt and ſloweſt in that pious motion: But ſome Souldiers now it ſeems have gone before All in their zealous and holy In<g ref="char:EOLhyphen"/>dignation: And ſhall the Godlineſs and Righteouſneſs of an Army exceed the Godlineſs and Righteouſneſs of Court, City and Country? I ſay again, Chriſtian Magiſtrates and People all were beſt look to it, conſider, and do it,
+<note place="margin">Pſal. 82.8.</note> leſt God come yet in heavier Judgments, ſaying, <hi>I will do it my ſelf.</hi>
+            </p>
+            <p>Why, what ſhould the People do?</p>
+            <p>Pray for All in Authority,
+<note place="margin">1 Tim. 2 2.</note> that they may have in their Heads and Hearts, as well as in their Hands to do it, to do it quickly, before the Decree be ſealed, and the Nation prepared for univerſal Deſolation:
+<note place="margin">Ezek 9.4.</note> And what we cannot Prevent, be we ſure to Lament, that the Man with the Pen and Ink-horn may mark us from deſtruction. <hi>Hezekiah</hi> rent his clothes, and covered himſelf with ſackcloth, &amp;c.
+<note place="margin">Iſai. 37.1, 2, 3, 14.</note> when he heard the Blaſphemies of <hi>Rabſhekah;</hi> That day of Blaſ<g ref="char:EOLhyphen"/>phemy was a day of Trouble and vexation to him, though the Blaſphemy was from an Aſſyrian; And ſhall the days of greater Blaſphemies be days of leſs trouble and grief to us, not from profeſſed Aſſyrians, but from profeſſing Chri<g ref="char:EOLhyphen"/>ſtians? What Chriſtian heart that hath any true blood of Chriſtianity running in the veins of it, can chuſe but be deeply affected and afflicted with it?</p>
+            <p>I fear we do not generally, not cordially enough ſigh and cry for all the Abominations that be done in the Land, That the Man clothed in Linnen with the Writers Ink-horn by his ſide may ſet a mark upon our foreheads from a Nation<g ref="char:EOLhyphen"/>al Deſtruction; which the ſuggeſtions of my fear make me bold to prophecy, wherein my love to my Nation would make me glad to be found a falſe Prophet.</p>
+            <p>And now I beſeech you to conſider with me, the won<g ref="char:EOLhyphen"/>derful Patience and compaſſionate Forbearance of our God with us, who though his Soul abhor ſin infinitely; though
+<pb n="30" facs="tcp:135576:17"/>he cannot go out of ſight and hearing (as we may) but muſt ſee and hear all the unpuniſhed blaſphemous impious Diſ<g ref="char:EOLhyphen"/>honors done to the Three Deareſt to him in all this world, more to him then all the world, [His Name and Worſhip, His Word and Truth, His Saints and Children,] Though Heaven and Earth even ſweat again under theſe Provoca<g ref="char:EOLhyphen"/>tions; yet hath God Patience to ſee and hear all.</p>
+            <p>Oh! Then come you my Brethren in Chriſtianity; Who are we that we muſt not be croſt in the leaſt Toy or Trifle, that doth occur, of Body, Goods or Name, but we muſt run preſently to the hard haſty Arguments of Steel and Iron? Not only as <hi>Zedekiah</hi> pleaded with the Prophet, <hi>[a word and a blow,]</hi>
+               <note place="margin">1 King. 22.29. 2 Sam. 13.22. Cap 20.10</note> but as <hi>Abſalom</hi> with <hi>Amnon,</hi> [a blow without a word, ſtrike and ſay nothing;] Our ſword (like <hi>Joabs</hi>) dropping forth upon all occaſions, diſcourſing with a neighbor as he did with <hi>Amaſa [in the fifth rib,]</hi> ſpeaking Daggers points unto him. Who are we, that we cannot put up any Illations of wrongs and injuries with quiet minds? Are we Chriſtians? Nay are we Men? that we will not, we cannot bear with men, as God bears? With men as God, did I ſay? Nay with God himſelf? He muſt ſhowre and ſhine when we will have him; ſtrike and ſtroke when we will have him; elſe we queſtion ſometimes his Power, ſometimes his Truth, ſometimes his Providence: Oh ſhame! Be we more patient, as our Father which is in Heaven is patient; Be we Followers of God as dear Chil<g ref="char:EOLhyphen"/>dren: Who are we?</p>
+            <p>Oh! Then come you my Brethren in the Miniſtry; Is God ſo wounded with Blaſphemous Reproaches in his Word, in his Name, and bears it, and muſt not we be toucht in ours?
+<note place="margin">Mat. 10 25</note> Shall the Maſter of the Houſe be called <hi>Beelzebub,</hi> and muſt not we of the Houſhold be miſcalled? Remem<g ref="char:EOLhyphen"/>ber <hi>Uriah</hi>'s words,
+<note place="margin">2 Sam. 11.1</note> 
+               <hi>The Ark, and Iſrael, and Judah dwell in Tents, and my Lord Joah and his ſervants abide in the open fields, and ſhall I then go into mine houſe to eat and drink? &amp;c.</hi> And ſay we every one, Shall my Lord Jeſus in his Ordi<g ref="char:EOLhyphen"/>nances
+<pb n="31" facs="tcp:135576:17"/>(the Tokens of his Preſence) be threatened with Tents, and expoſed to all the Injuries incident to the open field, and ſhall we then go ſecure to our houſes and enjoy<g ref="char:EOLhyphen"/>ments from all threats of violence and diſturbance? Lord, who are we? Men we are as they are, and that is for their ſakes, becauſe they cannot hear the voyce of God himſelf and live; Sinful we are as they are, and that is becauſe we are men; Mortal we are as they are, and that is becauſe we are ſinful; Yet ſtill though men, ſinful and mortal,
+<note place="margin">2 Cor. 5.2.</note> we are the Meſſengers of God, and Embaſſadors of Chriſt: Now in that we ſuffer as men, ſinful and mortal,
+<note place="margin">Mic. 7.9. Lam. 3.22.</note> we ſhould bear it patiently, and give God his Glory; the Glory of his Ju<g ref="char:EOLhyphen"/>ſtice, that we are Afflicted; and the Glory of his Mercy too, that we are not Conſumed: But in that we ſuffer as Mini<g ref="char:EOLhyphen"/>ſters, <hi>eo nomine</hi> as Miniſters, <hi>If our Adverſaries ſhould write a Book againſt us,</hi> we might with holy <hi>Job, Take it upon our ſhoulders, and bind it to our heads as a Crown;</hi>
+               <note place="margin">Job 31.35, 36</note> we ſhould bear it gladly, Rejoycing with the beaten and abuſed Apoſtles, <hi>That we are counted worthy to ſuffer ſhame for his Name.</hi>
+               <note place="margin">Acts 5.41.</note> For (alas!) the worſt is not Ours, but Theirs, whileſt Chriſt himſelf ſuffers in our wrongs as his Miniſters:
+<note place="margin">Exod 16 8</note> 
+               <hi>And what are we?</hi> (ſaid <hi>Moſes</hi> and <hi>Aaron,</hi>) <hi>Your murmurings are not againſt us, but againſt the Lord: [He that rejecteth Me,</hi>
+               <note place="margin">Joh. 12 48.</note> 
+               <hi>and receiveth not my Word,]</hi> There Chriſt intereſted himſelf in the quar<g ref="char:EOLhyphen"/>rels of his Word: <hi>[He that deſpiſeth you, deſpiſeth me,]</hi>
+               <note place="margin">Luk. 10.16</note> There Chriſt intereſted himſelf in the quarrels of his Mini<g ref="char:EOLhyphen"/>ſters as his Miniſters.</p>
+            <p>The mighty <hi>Nimrods</hi> of our Times deal with us, as Hunt<g ref="char:EOLhyphen"/>ers do with Hedges, leap over them, or tread them down in the purſuit of their Pleaſure and Game, and run to them for ſhelter in a Storm: When God ſhall reſtore them to their right minds, his Word and Miniſters ſhall be reſtored to their Honors again: Then they will glorifie God, and honour his Word and Miniſters in the day of Viſitation;
+<note place="margin">1 Per. 2 12</note> And till then my Brethren, let it be accounted ſcandalous to receive Honour at their hands or tongues, by whom
+<pb n="32" facs="tcp:135576:18"/>Gods holy Name is blaſphemed, his holy Son diſhonored, his holy Spirit reſiſted, his holy Word and Ordinances de<g ref="char:EOLhyphen"/>ſpiſed.
+<note place="margin">1 Tim. 5 17</note> Should ſuch ungodly Miſcreants preſent us with their double or ſingle Honour, it were not a proud, but an holy diſdain to fling it back into their faces again, as unwor<g ref="char:EOLhyphen"/>thy of the honour,
+<note place="margin">1 Sam. 2.30</note> to honour the ſervants of Chriſt whom God doth honour.</p>
+            <p>Now no more of this Queſtion; Will you bear but one Queſtion more?</p>
+            <q>
+               <label type="milestone">
+                  <seg type="milestoneunit">Question </seg>3</label> Why the Devil ſeems more familiar with men in our Time, then in former Days? Why Witchcraft ſo much a<g ref="char:EOLhyphen"/>bounds?<note place="margin">As Exam<g ref="char:EOLunhyphen"/>ples ſhew in other Circuits a<g ref="char:EOLhyphen"/>broad, and would there had been none in ours here at home.</note>
+            </q>
+            <p>Shall we ſay, it is becauſe of Reformation, that the Devil ſo beſtirs him beyond former wont? Reformation is a good word, yea glorious, both name and thing, ſuch as would ra<g ref="char:EOLhyphen"/>ther provoke the Devil unto his moſt outragious Tyranny, then invite him unto Familiarity. Oh that we were an uni<g ref="char:EOLhyphen"/>verſally, throughly, really Reformed People as we ought; Then how Proſperous and Victorious might our Nation be? how flouriſhing our Church and State? yea how ter<g ref="char:EOLhyphen"/>rible to Satan?
+<note place="margin">Zech. 2.5.</note> as armed with terror, and walled with fire round about, ſo that he durſt not come ſo near us as to in<g ref="char:EOLhyphen"/>ſinuate for Familiarity with us: As that moſt Artificial Painter, having painted a Boy with a Basket of Grapes in his hand,
+<note place="margin">Zeuxes.</note> and ſeeing the Birds flying in flocks to peck at the Grapes (as if true and natural) to the ſilly peoples admira<g ref="char:EOLhyphen"/>tion, he was ſore diſpleaſed with himſelf, diſclaimed his Art, ſaying, <hi>Had I painted the Boy (which was the chief part of my Picture) as well as I have done the Grapes (which were but a by accident and ornament) the Birds durſt never have been ſo bold.</hi> Your thoughts may forerun me in this Application: Were we indeed as careful and Conſcientious in the Sub<g ref="char:EOLhyphen"/>ſtantials and Eſſentials of true Religion and Devotion, for Faith, Life and Worſhip, as in ſhew Curious in the Circum<g ref="char:EOLhyphen"/>ſtances, Accidents and Ceremonies thereof, the Devil and this kind of Fowls,
+<note place="margin">Mat. 13.4, 19</note> theſe ravenous Birds of prey durſt never
+<pb n="33" facs="tcp:135576:18"/>have been ſo bold. Therefore I impute not the Cauſality of Witchcraft unto Reformation, for this will not make the Devil familiar, but mad rather.
+<note place="margin">2 Cor. 1 24 1 Cor 7.25</note> But (if I may give my Judgment, not as having dominion over your Faith, yet as one that hath obtained mercy of the Lord to be faithful, with ſubmiſſion to better Judgments) I conceive, It is be<g ref="char:EOLhyphen"/>cauſe of the proud, prophane, blaſphemous Rejections and Aſperſions of the holy Word of God by ſo many of the people, as imperfect and deficient to Salvation,
+<note place="margin">2 Tim. 3.17 Iob. 20.31. and 5.39. Acts 8 9</note> nay as a meer Shadow and humane Invention, (let S<hi rend="sup">t</hi> 
+               <hi>Paul,</hi> and S<hi rend="sup">t</hi> 
+               <hi>John,</hi> and <hi>Chriſt</hi> himſelf ſay what they will of its Suffici<g ref="char:EOLhyphen"/>ency, and Perfection, and holy Inſpiration;) Some giving out that themſelves are ſuch great ones, as to be Above Ordinances, above Rules, above Scriptures, and all that is written; pretending to the ſole guidance of the Spirit of God, as he that ſaid, <hi>I am for Chriſt,</hi>
+               <note place="margin">1 Cor. 1 12.</note> meaning [I am for none of you all:] What? For the Spirit of God and of Chriſt, even againſt their Word and their Will revealed, with Deſpight unto it? O God! That ever the Devil ſhould get ſo much Advantage for his ſubtil Inſinuations with Man! by his deſpiſing that ſame Word of God,
+<note place="margin">Ioh. 12 48 2 Cor. 11.14. 1 Joh. 4.1.</note> that ſhall judg him at the laſt Day: For the Devil is a Spirit, though an evil one, and a transforming one; God is a Spirit, the only Good one; And we are bid to try the Spirits, and forbid to beleeve every Spirit: And how ſhall we try them? but by that which ennobled the <hi>Bereans</hi> above others, <hi>viz.</hi>
+               <note place="margin">Act. 17.11</note> 
+               <hi>Searching the Scriptures dayly whether thoſe things were ſo.</hi> But where the Touchſtone and Rule of Tryal is rejected and exploded, the evil Spirit and any Error may be ad<g ref="char:EOLhyphen"/>mitted: As a Goldſmith or Lapidary without a Touch<g ref="char:EOLhyphen"/>ſtone may be eaſily deceived with counterfeits, and un<g ref="char:EOLhyphen"/>done.</p>
+            <p>Therefore if any be minded to be familiar with Devils, let them ſlight, or ſcorn, or burn their Bible; And this is <hi>vendere animam lucro,</hi> ſelling of a Soul for a little profit;
+<note place="margin">Mat. 16.26</note> or rather <hi>perdere animam nihilo,</hi> caſt it away for nothing;
+<pb n="34" facs="tcp:135576:19"/>As he ſaid that ſold his Bible, [Now have I ſold that which ſhould teach me to ſell all to buy it,] meaning the Truth of it,
+<note place="margin">Pro. 23 23</note> which may (for all the ſtrangeneſs) and muſt be <hi>bought,</hi> and not ſold.</p>
+            <p>But as many as deſire to be acquainted with God,
+<note place="margin">2 Pet. 5 9.</note> and to reſiſt the Devil, Thank God that your Bibles ſpeak Eng<g ref="char:EOLhyphen"/>gliſh; Wipe off the Duſt of Neglect, and the Dirt of Con<g ref="char:EOLhyphen"/>tempt from them; Let not this Rule and Touchſtone ſo great and good,
+<note place="margin">Hoſ. 8.12.</note> given us of God, be accounted of us as a ſtrange thing; ſtrange to our Judgments by Ignorance, to our Thoughts by earthly-mindedneſs, to our Affections by Indiſpoſedneſs, to our Mouths by rotten and prophane ſpeeches: But receive the Word of God as it is in truth the Word,
+<note place="margin">1 The. 2.13 Joh. 12 48 Jam. 1 21</note> not of Man, but of God, which ſhal Judg, &amp; may ſave your Souls: Receive it as it is indeed our beſt friend, next God, yea the very friendſhip of God: Receive it therfore not as a ſtranger, with a few cold Complements at the Door, or to come in only for an hour;
+<note place="margin">Col. 3.16.</note> but entertain it as a friend, <hi>[Let it dwell in you;]</hi> And becauſe it brings with it Rich Treaſures of the beſt ſtore, <hi>[Let it dwell in you Richly;]</hi> And becauſe it may be abuſed by Ignorance, Indiſcretion, Folly, Affectation, Unprofitableneſs, Vain-glory, and Hypocriſie, <hi>[Let it dwell in you Richly in all Wiſdom;]</hi> Speak and preach it in Wiſdom; hear, read and meditate of it in Wiſdom: not only in ſome, but <hi>[in All Wiſdom;]</hi> So <hi>Let the Word of God dwell in you richly in all Wiſdom:</hi> Not uſing it as a Spell or Charm againſt the Devil, by laying the Bible at the Beds head, or in the Chamber window only, that's not in wiſdom; or by naked quoting of Scripture only,
+<note place="margin">Luk. 4.10. Pſa 91.11, 12</note> that's not in wiſdom, (for the Devil himſelf can do ſo, and gloſs upon it too,) but by So quoting it as by Faith, Affection, and Obedience to cleave unto it; This is the right uſing of the Sword of the Spirit in Wiſdom.
+<note place="margin">Ephe 6.17</note> Let it ſo dwell in us, Not only <hi>ſub ra<g ref="char:EOLhyphen"/>tione veri,</hi> as Truth in the general while it only pleads it ſelf; but alſo (as the Schools diſtinguiſh) <hi>ſub ratione con<g ref="char:EOLhyphen"/>trarii,</hi> as Reproof in the particular when it preſſes upon our
+<pb n="35" facs="tcp:135576:19"/>ſelves; and not as the <hi>Fryar</hi> wittily told the people, that the Truth he preached was like holy water, which every one called apace for, yet when it came to be caſt on them, they would turn aſide their faces: Some that call faſteſt for Truth, cannot abide to have it caſt into their faces; could like Truth if it would only ſhew it ſelf, and yet can miſlike it when it comes thus to ſhew them themſelves; Could find in their hearts to love Truth <hi>Lucentem,</hi> Shining,
+<note place="margin">Jer 13 15. <hi>Obevi e<g ref="char:EOLunhyphen"/>quaſi O<g ref="char:EOLhyphen"/>baudire.</hi> Iudg. 9.7.</note> but not <hi>Re<g ref="char:EOLhyphen"/>targuentem,</hi> Reproving, &amp;c. <hi>[Hear ye, give ear, be not proud, the Lord hath ſpoken;]</hi> He is proud that will not harken unto God againſt himſelf and all the world. <hi>[Harken un<g ref="char:EOLhyphen"/>to me ye men of Shechem, That God may harken unto you,]</hi> ſaid <hi>Jotham.] Secret things belong unto the Lord our God,</hi>
+               <note place="margin">Deu. 29 29</note> 
+               <hi>but re<g ref="char:EOLhyphen"/>vealed things unto us and our children,</hi>] ſaid <hi>Moſes.</hi> 'Tis not Se<g ref="char:EOLhyphen"/>cret Purpoſe of God, but Revealed Precept muſt be Mans Rule: Take we heed of pretending to the Spirit of God againſt the Word of God; For there is no Promiſe of Gods Spirit being a Guide, where his Word is not a Rule; Therefore make we the Word of God to be our Rule, and then hopefully may we beg the Spirit of God to be our Guide; and hold we there, if we be wiſe.</p>
+            <p>Now by this I hope you are Reſolved in part, About the Devils Rage with Man, About his Greateſt Rage in Chriſts Time, With Application to Ours; Wherein if I have ſeemed in any thing too uncharitable or peremptory, I humbly crave but two things of you in my Apology: <hi>That ſuch only</hi> may be my Judges who have ſadly conſidered the ſtate of the Times and of their own Souls; at their Judg<g ref="char:EOLhyphen"/>ment I am content to ſtand or fall. <hi>That ſuch candor</hi> may be ſhewed me as was due unto the Prophets of old,
+<note place="margin">Ier. 5.1. Ier. 9.2. Pſal. 12.1. Iſaial. 1.6.</note> ſpeaking thus largely, <hi>[There is not a man to be found that executeth Judgment, and ſeeketh the Truth: They be All Adulterers, An Aſſembly of Rebels, There is not one godly man left; From the ſole of the foot unto the head, &amp;c. From the leaſt of them even to the greateſt, &amp;c.]</hi> They would in all be underſtood as lamenting at the generality of Corruption, not as beſot<g ref="char:EOLhyphen"/>ing
+<pb n="36" facs="tcp:135576:20"/>every particular perſon of Magiſtracy, Miniſtry and Commonalty without exception; and ſo would I; Not loving the froward wont of wayward men, ſo to bemoan what we want, as not to bleſs God for what we have. There are ſome Chriſtian hearts (I hope) amongſt us in all our Ranks, God encreaſe their Number, their Graces, and their Comforts; For I fear me, 'tis but as the ſhaking of an O<g ref="char:EOLhyphen"/>live-tree,
+<note place="margin">Iſai. 17.6. Ier. 3.14. Iſai. 24.13</note> in <hi>Iſaiah, Two or three berries in the top of the upper<g ref="char:EOLhyphen"/>moſt bough, four or five in the utmoſt branches: One of a City, two of a Tribe:</hi> Or <hi>As the gleaning of Grapes when the Vint<g ref="char:EOLhyphen"/>age is done;</hi> Yet with this comfort, That God is dealt and prevailed with by his Servants more in their Weight, then in their Numbers;
+<note place="margin">Gen. 18.</note> Ten righteous Souls would in Gods Ballance outweigh all the Godleſs ones in <hi>Sodom;</hi> One Chriſtian all the Chriſtleſs ones in <hi>Jeruſalem:</hi>
+               <note place="margin">Ier. 5.1.</note> For, as he ſaid,
+<note place="margin">Iudg. 8.2.</note> 
+               <hi>The gleanings of Ephraim are better then the vintage of Abiezer.</hi>
+            </p>
+            <p>By this Meaſure here ſet by me, I ſee room little enough left me in time and patience for this ſhort Applica<g ref="char:EOLhyphen"/>tion.</p>
+            <p>Firſt,
+<note n="1" place="margin">Inſtruc<g ref="char:EOLhyphen"/>tion.</note> For Inſtruction in two particulars.</p>
+            <p n="1">1. Of Mans vain Credulity, which does him moſt inju<g ref="char:EOLhyphen"/>ry, in truſting his Enemy too far; not taking him to be ſo much our Adverſary as Gods Word doth make him to be, nor beleeving that he ſeeketh our Deſtruction ſo much as Gods Miniſters declare him to do:
+<note place="margin">1 Pet. 5.8. Mat. 24 22 Gen. 3.1.</note> But we may be perſwa<g ref="char:EOLhyphen"/>ded that the Devil is not called our Adverſary, nor com<g ref="char:EOLhyphen"/>pared to a Roaring Lyon, and to a ſubtil Serpent, for no<g ref="char:EOLhyphen"/>thing; feeding upon our Corruptions, as the Serpent doth upon duſt.</p>
+            <p n="2">2. Of the Devils Tyranny, which if ſo malicious to our Bodies (though he leaſt minds them) as to diſmember them, whereof are divers Examples beſides this in the Goſpel; How great may we ſuſpect his Malice towards our Souls? ſeeking to diſmember them, by making us blind when we ſhould ſee Gods Works, and deaf when we ſhould hear
+<pb n="37" facs="tcp:135576:20"/>Gods Word, and dumb when we ſhould confeſs our ſins, or bleſs his Name:
+<note place="margin">Iſa. 33 14 <hi>Mat</hi> 9 43.44.</note> And if his Cruelty be ſo terrible in this life, how tormenting will it be in the life to come? in thoſe everlaſting burnings in Hell fire?</p>
+            <p>Next, For Exhortation,
+<note n="2" place="margin">Exhorta<g ref="char:EOLhyphen"/>tions.</note> to praiſe God for not giving us over as a prey into his Teeth, but that our Souls are eſcaped as Birds out of the ſnare of this Fowler:
+<note place="margin">Pſalm 24.6, 7, 8.</note> For he is a poor experienced Chriſtian that doth not dayly find the Power of God in preſerving him from Satans Temptations and Terrors,
+<note place="margin">2 Tim 4 8</note> which are the Paws and Jaws of that Roaring Ly<g ref="char:EOLhyphen"/>on that would devour him. Common Proſe is too low and dull to expreſs the due thanks for ſuch a Deliverance: The Soul in this ſhould be advanced to the height and courage of a Song; Not a Chriſtian Soul but hath matter enough given it of God to make Songs of his Praiſe, being thus (like <hi>Davids</hi> Soul) compaſſed about with Songs of Deli<g ref="char:EOLhyphen"/>verance.
+<note place="margin">Pſal. 32 7. and 28 7.</note>
+            </p>
+            <p>What now the Importance of your Affairs, which occa<g ref="char:EOLhyphen"/>ſion this Concourſe, will not permit me to expreſs, I crave leave only to intimate in few words touching <hi>The Diſeaſe and Cure</hi> in our Text, and ſo conclude.</p>
+            <p>
+               <hi>The Malady or Diſeaſe, [This Kind.]</hi>
+               <note place="margin">1. Mat 9 33.</note> The dumb Devil was always held the worſt kind of Devils; and therefore we find that upon the effecting of this Miracle, the people were all <hi>amazed, and marvelled, ſaying, It was never ſo ſeen in Iſrael,</hi> becauſe it was ſuch an extraordinary Cure to heal one poſſeſſed with a dumb Devil.</p>
+            <p>Here were occaſion of a Diſcourſe about the Nature, Order, Malignity, and Diverſity of Evil Angels; where<g ref="char:EOLhyphen"/>with I might fill your heads ſooner then warm your hearts, which makes me the leſs ſorry for being taken off from ſpeaking any more: Now therefore no more but this; As there are Diverſities of Devils, ſo are there Diverſities of Sins, their name is <hi>Legion</hi> too, for they are many.
+<note place="margin">
+                  <hi>Mark</hi> 5.9</note>
+            </p>
+            <p>Sins are Diverſified,</p>
+            <p n="1">1. In reſpect of the <hi>Cauſe,</hi> which may be <hi>Voluntary</hi> or
+<pb n="38" facs="tcp:135576:21"/>
+               <hi>Involuntary,</hi> ſuch as are either of <hi>Ignorance</hi> or of <hi>Preſump<g ref="char:EOLhyphen"/>tion:</hi> But know we that <hi>voluntary</hi> and <hi>preſumptuous</hi> ſins are the worſt kind;
+<note place="margin">Pſa. 19.13</note> 
+               <hi>[Keep back thy ſervant alſo from preſumptu<g ref="char:EOLhyphen"/>ous ſins, &amp;c.]</hi>
+            </p>
+            <p n="2">2. In reſpect of the <hi>Act,</hi> either of <hi>Commiſsion</hi> or of <hi>Omiſ<g ref="char:EOLhyphen"/>ſion;</hi>
+               <note place="margin">Iſ. 65.2 3. Ezek. 2.4.</note> 
+               <hi>Commiſsive</hi> ſins are the worſt kind, Sins in <hi>deed</hi> are held more provoking and impudent.</p>
+            <p n="3">3. In reſpect of the <hi>Subject</hi> thereof; The ſame ſin for the matter is capable of aggravation from the perſon that commits it, be he Prince or Subject, Maſter or Servant, Miniſter or People, &amp;c. Sin may proceed and commence, take an higher degree, according to the height and degree of the perſon that acts it; the higher, the worſe kind.</p>
+            <p n="4">4. In reſpect of the <hi>Object;</hi> So Blaſphemy againſt God, is a worſe kind then Calumny againſt a Neighbor.
+<note place="margin">1 Sam. 2.25</note>
+            </p>
+            <p n="5">5. In reſpect of the <hi>Matter;</hi> So detracting from the Word of God, is a worſe kind then clipping the Kings Coyn.</p>
+            <p n="6">6. In reſpect of the <hi>Manner</hi> or <hi>Meaſure;</hi> So reiterated, multiplied, continued ſins, are a worſe kind then ſingle ſins but once committed.</p>
+            <p>This might be ſerviceable for divers Uſes:</p>
+            <p n="1">1. As for their Confutation who make no difference of ſins, but judg All alike, becauſe that Sin is nothing but a Privation, and Privation (ſay they) admits of no Degrees: But by their leaves they may be told (if not taught) that Privations are not all equal, ſome are more meer and ſim<g ref="char:EOLhyphen"/>ple Privations then others. But I cannot ſtay to teach them now.</p>
+            <p n="2">2. So for their Confutation alſo who ſpitefully accuſe us of equalling and levelling all ſins, becauſe we allow not of their vain Diſtinction of Venial and Mortal Sins (eſpe<g ref="char:EOLhyphen"/>cially in their ſence.)</p>
+            <p>Truth indeed, we account no ſin ſimply little, and in its own nature ſmall: Becauſe,</p>
+            <p>No little God to ſin againſt; the leaſt ſin, <hi>minimum
+<pb n="39" facs="tcp:135576:21"/>ſpirituale,</hi> is againſt an infinite Majeſty.</p>
+            <p>No little Price payd for little ſins; the leaſt ſin pardoned coſt the invaluable Blood of Chriſt.</p>
+            <p>No little diſobedience in little ſins; As much Treaſon in falſe coyning of pence of Silver, as of pieces of Gold.</p>
+            <p>No little unthankfulneſs in little ſins; the leſs the matter and occaſion is wherein we offend, the greater is our un<g ref="char:EOLhyphen"/>thankfulneſs in offending God for ſo ſmall a matter and ad<g ref="char:EOLhyphen"/>vantage, which ſhews the greater Corruption by how much the leſs was the Temptation.</p>
+            <p>No little pollution by little ſins; A ſmall Puddle may defile a man as much as a muddy Pond.</p>
+            <p>No little puniſhment for little ſins (ſo called;
+<note place="margin">Rom. 6.23</note>) The wages of ſin as ſin is eternal death.</p>
+            <p>'Tis known that the Plagues of Lice and of Flies did trouble the Land of <hi>Egypt</hi> as much (if not more) then ſome of the greater Plagues: (The Magicians were firſt baffled in the Lice, and made to acknowledg the finger of God;
+<note place="margin">Exod. 8.9</note> and <hi>Pharaoh</hi> firſt heart-ſtruck in the Flies without a Rod to yield the <hi>Iſraelites</hi> to ſacrifice to their God;
+<note place="margin">Ver. 24.25</note> The ſmalneſs of the Inſtruments adds unto the horror of the Judgments,
+<note place="margin">Maximus in minimis.</note> Gods hand being moſt palpable and ſenſible in the ſmalleſt and vileſt things: <hi>Pharaoh</hi> might take it in as much ſcorn to periſh by the baſeſt and vileſt creatures,
+<note place="margin">Judg. 9.54</note> as <hi>Abimelech</hi> to be killed by the weakeſt veſſel, a woman.) Therefore though we extenuate no ſin, ſaying of it, as <hi>Lot</hi> of <hi>Zoar,</hi>
+               <note place="margin">Gen. 19 20</note> 
+               <hi>[Is it not a little one?]</hi> becauſe we know all ſin of it ſelf mortal, yet let us make a difference in degrees of ſin; and remember, that to be poſſeſſed with a Dumb Spirit, is to be poſſeſſed with a Great Sin indeed. When a man is ſo Dumb, that he cannot confeſs his ſins to God; and ſo Dumb, that he can<g ref="char:EOLhyphen"/>not crave the mercy of God to forgive his ſins; and ſo Dumb, as he cannot praiſe God for his Bounty and Good<g ref="char:EOLhyphen"/>neſs; and ſo Dumb, that he can rebuke or exhort his Bro<g ref="char:EOLhyphen"/>ther; Then indeed he is poſſeſſed with a Dumb Spirit, and a Great Sin.</p>
+            <pb n="40" facs="tcp:135576:22"/>
+            <p>But no more of the <hi>Malady, [This Kind.]</hi>
+            </p>
+            <p>And as little of the <hi>Recovery,</hi> [<hi>Coming forth.</hi>] It is ſo re<g ref="char:EOLhyphen"/>markable,
+<note place="margin">2. <hi>Mat.</hi> 12.24 28.</note> that Chriſt never healed any poſſeſt, but he ſtill caſt the Devil out, that the Ancient learned ſought for Reaſons, and found <hi>Four,</hi> why Caſting out is the only note of Cure, why only by <hi>Coming forth.</hi>
+            </p>
+            <p n="1">1. Becauſe the Devil like a cunning Cheater doth always cozen and out-reach men in his Bargain;
+<note place="margin">Luke 4.6 Mat. 4 8 2 Pet 2 14</note> deluding of feeble ſenſes, and beguiling of unſtable Souls; never giving any valuable Conſideration for any thing that he had:
+<note place="margin">Primae A<g ref="char:EOLhyphen"/>ctiones ſunt regulae.</note> As ap<g ref="char:EOLhyphen"/>pears by his Cheat put upon our firſt Parents, who for an Apple ſold Paradiſe; the Price was indeed ſo little, as the Spirit of God would never yet acquaint us what it was. And conſider I pray what doth he give the Ambitious man for his Soul, but Smoak? And what the Covetous man, but Muck? And what the Adulterous Libidinous man, but Rottenneſs? In which reſpect there is <hi>Ejectio firma</hi> againſt him, as the Law provides in like caſes; he muſt be caſt out.</p>
+            <p n="2">2. Becauſe like a falſe juggling Dealer he never per<g ref="char:EOLhyphen"/>formed or made good his Bargain. He promiſed our firſt Parents,
+<note place="margin">Gen. 3.4, 5</note> 
+               <hi>They ſhould not dye, but live, and be as Gods;</hi> But alas, though ſome of their poſterity might be ſaid to live as Gods,
+<note place="margin">Pſal. 82 7. Rom. 6.23</note> yet to be ſure they <hi>ſhall all dye like men.</hi> Right Le<g ref="char:EOLhyphen"/>gerdemain, taking from us what he ſeems to give us: He is ever laviſh in his tempting promiſes of things not his own,
+<note place="margin">Mat. 4 9. Luke 4.6.</note> as he was to Chriſt; But univerſal experience hath found him falſe, and therefore he is juſtly <hi>Caſt out.</hi>
+            </p>
+            <p n="3">3. Becauſe the Devil like a ſharking Jobber chaffer'd with thoſe that had no power to ſell;
+<note place="margin">Pſal. 10<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.3 Mal. 2.10.</note> as children and ſer<g ref="char:EOLhyphen"/>vants that have no power to ſell that which is not their own, but their Parents and Maſters: Mens Bodies are not their own,
+<note place="margin">1 Co. 6.19</note> much leſs their Souls; And in this Caſe again the Law ſays, <hi>Caveat emptor,</hi> let the Buyer look to it, and there<g ref="char:EOLhyphen"/>fore is he Juſtly <hi>Caſt out.</hi>
+            </p>
+            <p n="4">4. Becauſe the Devil never pays the quit-rent, that is,
+<pb n="41" facs="tcp:135576:22"/>Thanks and Praiſe to God, which he never renders will<g ref="char:EOLhyphen"/>ingly as an end of Agents Intention, but only as an end of Paſſive Compulſion. This Quit-rent of Honour and Glory, God always (as Creator) reſerved to himſelf in his moſt general Grant of all things to his Creatures: But this the Devil never pays, and therefore is he juſtly caſt out, and the great Landlord hath reaſon to re-enter.</p>
+            <p>Let us add but two more:</p>
+            <p n="5">5. Becauſe he lets all go to decay, and loves to ruine where he comes; Lands and Buildings, both the out<g ref="char:EOLhyphen"/>ward and the inward parts of the Dwellings: He ruines the Body (as well as the Eſtate) of a Drunkard, Glutton, and Leacher, and intemperate Liver, with Rottenneſs and Conſumptions; He lets alſo the inward parts run to wrack, as the Foundation to fall, which is Faith; the Walls to decay, which are Charity; and all the other inward Virtues to run to Ruine; and therefore is he juſt<g ref="char:EOLhyphen"/>ly Caſt out for not maintaining Reparations.</p>
+            <p n="6">6. Laſtly, Becauſe God himſelf means to re-enter,
+<note place="margin">1 Cor. 6.19 Cap. 10.21</note> and dwell there, where muſt be no Inmate; No room for <hi>Belials, Mammons,</hi> Idols,
+<note place="margin">2 Cor. 6.15</note> Devils in the Temple of the Holy Ghoſt: Therefore in Juſtice and Neceſſity is the Devil caſt out of doors.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Applicat. </seg>1</label> Now ſeeing theſe things are ſo, let the ſame Grounds which Chriſt had to caſt out Satan, be earneſt Provoca<g ref="char:EOLhyphen"/>tions unto our ſtrong fortifications to keep him out, and not ſuffer him by cunning diſguizes to get poſſeſſion in our Temples: For though he turn himſelf into the harmleſs ſhape of a Sheep,
+<note place="margin">1 Pet. 5.<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 2 Cor. 11.14 Ephe. 6.12</note> yet he is tranſcendently a ſubtil Serpent, a malicious Dragon, a roaring Lyon; And though he transform himſelf into an Angel of Light, yet he is a Spirit of Darkneſs. He is fitly re<g ref="char:EOLhyphen"/>ſembled to <hi>Hazael,</hi> who being told by the Prophet that
+<pb n="42" facs="tcp:135576:23"/>he ſhould do ſuch and ſuch deſperate things, and pro<g ref="char:EOLhyphen"/>digious acts, anſwers, <hi>[Is thy ſervant a Dog, that he ſhould do ſuch great things?]</hi>
+               <note place="margin">2 Kin. 8 13</note> As if <hi>Eliſha</hi> had been miſ<g ref="char:EOLhyphen"/>taken in the man; but the event ſhewed the truth of that Prophecy.
+<note place="margin">Judg. 4 18 21. Cap. 5.25.</note> And for all the world like <hi>Jael</hi> crying to <hi>Siſera, [Come in my lord, come in, fear not, &amp;c.]</hi> Firſt give him milk and butter in a lordly diſh, till he ſleeps; and then nothing but the hammer and the nail till he dyes. So the Devil, diſclaim he what Cruelties, and profeſs he what Kindneſſes he will, be we ſure of this, He never ſeeks to poſſeſs any man but to tyrannize over him, to ruine him and ſpiritually undo him if he can. Whoſoever credits a Lyar is deceived, but he that will credit the known Father of Lyes,
+<note place="margin">John 8 44</note> loves to be deceived and undone.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> And next, to keep him out, two things are neceſſary:
+<list>
+                  <item>
+                     <note place="margin">Iam. 2.17, 18</note> 1. To See him by Faith.</item>
+                  <item>2. To bolt the Door againſt him by Works of Obedience.</item>
+               </list>
+            </p>
+            <p n="1">1. To See him: Some Rules ſhould be borrowed from the Opticks, for the ſeeing things exactly with our bodily eyes, That it is requiſite that the Object be right<g ref="char:EOLhyphen"/>ly placed, that is, In a direct Oppoſition, and not too near us: We cannot ſee a thing in its compleat propor<g ref="char:EOLhyphen"/>tion, on the ſame ſide we are, neither behind us, nor if it be placed juſt beſide us. If a man would plainly and perfectly in each Dimenſion behold one in this ſide of the Room, he muſt ſtep over to the other ſide: So he that would ſee the Devil in his Pride, ſhall never per<g ref="char:EOLhyphen"/>ceive him, ſo long as he is proud himſelf, for ſo long he ſtands on the ſame ſide the Devil doth; But if he go over unto the other ſide of Humility, then he ſhall plain<g ref="char:EOLhyphen"/>ly ſee the Devil in his Pride, ſo in his Malice and Hypo<g ref="char:EOLhyphen"/>criſie, &amp;c. The reaſon why ſo few diſcern him in his Slights and Deformities, is becauſe ſo many ſtand on the
+<pb n="43" facs="tcp:135576:23"/>ſame ſide. Then be ſure we ſtand not too near, for if the Organ be too near the Object, the beams of the ſight will be confounded; There muſt be a Mediocrity of diſtance, the Eye not too near, nor too far off, for if a man would perceive the Art of a proſpective Picture, he muſt go a diſtance from it, and look on it not with Na<g ref="char:EOLhyphen"/>tural eyes only, but with the help of Artificial eyes or Spectacles fitted for the purpoſe, elſe no diſcerning of the Myſtery in it: Semblably, if a man would plainly ſee this myſterious Proſpect of the Devil, with all his deep Shadows, and profound Devices and Deceits, he muſt endeavor to go from him, that he may perceive him; and then look not with the eyes of Nature or Reaſon which hardly or never diſcern him,
+<note place="margin">1 Ioh 2 20.</note> but with the eye of Faith cleared with Gods Word, and anointed with Gods Spirit, which will plainly diſcover him.</p>
+            <p>The next Means to keep the Devil out of Poſſeſſion, is to ſhut the Door againſt him, by good Works of holy Obedience for Conſcience ſake: Chriſtian diligence in lawful Callings, even in the loweſt places of hewing wood, and drawing water (eſpecially if the heart be for<g ref="char:EOLhyphen"/>tified with the ſpirit of Grace and Prayer) is no ſmall means to keep out the working Devil, who hath Idle<g ref="char:EOLhyphen"/>neſs for his Anvil.
+<note place="margin">Gen. 2.15.</note> 
+               <hi>Adam</hi> was ſet by God to work in Paradiſe,
+<note place="margin">Hieronimus ad Ruſti<g ref="char:EOLhyphen"/>cum. ut quando Di<g ref="char:EOLhyphen"/>abolus ve<g ref="char:EOLhyphen"/>nit inveni<g ref="char:EOLhyphen"/>at occupa<g ref="char:EOLhyphen"/>tum.</note> but was idle when the Devil was at work with him by Temptations: And therefore let me adviſe you, as He did his Friend, <hi>To be always doing of ſome good thing, that when the Devil comes he may find you buſie;</hi> The Door ſhut againſt him, and you not at leaſure to give him entertainment.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> And then let every Soul earneſtly obſerve <hi>quid genus Daemonum,</hi> what kind of evil Spirit it is that doth moſt ſtrongly beſet (if not poſſeſs) it: For as there are Diver<g ref="char:EOLhyphen"/>ſities of Devils, and Diverſities of Sins, ſo are there Dif<g ref="char:EOLhyphen"/>ferences in Caſting out of Sins: Though in reſpect of
+<pb n="44" facs="tcp:135576:24"/>Gods abſolute Power, all are alike eaſie; yet in regard of mans capacity or incapacity, ſome ſins are caſt out, and ſome Souls cured, with the leſs, and ſome with the greater difficulty. Take heed leſt there be in any of you an evil ſpirit of Unbelief,
+<note place="margin">Heb. 3.12. Joh. 20.25, 27</note> Incredulity, Vain-glory, and Hypocriſie, this kind cannot come forth eaſily; Bribery, Perjury, Cruelty, this kind is cured hardly; And of like kind are Drunkenneſs, Uncleanneſs, Co<g ref="char:EOLhyphen"/>vetouſneſs, Rebellion, Witchcraft; And eſpecially be<g ref="char:EOLhyphen"/>ware of any cuſtomary and preſumptuous ſins, this is a kind not to be caſt out ordinarily: For as there was no little ado to reſtore to life <hi>Jairus</hi> his daughter dead in the houſe;
+<note place="margin">Mark 5 41</note>
+               <note place="margin">Luke 7.14</note> More about the Widows ſon, carryed out dead in the gate; but Moſt of all about <hi>Lazarus,</hi> buried dead in the grave ſo long till he ſtank;
+<note place="margin">Ioh. 11.44.</note> for <hi>Martha</hi> wept, and <hi>Mary</hi> wept, and the Jews wept, yea Jeſus himſelf wept and groaned in his ſpirit: Semblably, There goes Much beſides private Admonition to Raiſe the ſecret ſhame-fac'd Sinner,
+<note place="margin">Mat. 18.15</note> that with <hi>Jairus</hi> his daughter is but dead as in the houſe and within doors;
+<note place="margin">Mat. 18.16 17 Ezek. 2.4.</note> And More be<g ref="char:EOLhyphen"/>ſides publique Reprehenſion to Raiſe the open impudent Sinner, that with the Widows ſon is as dead in the gate without doors like <hi>Abſalom</hi> in the face of the Sun; But Moſt of all, beſides weeping and groaning, and with <hi>Mary</hi> lamenting <hi>[Lord,</hi>
+               <note place="margin">Ioh. 11 21.</note> 
+               <hi>if thou hadſt been here, my Bro<g ref="char:EOLhyphen"/>ther had not dyed]</hi> to Raiſe the cuſtomary ſtinking Sin<g ref="char:EOLhyphen"/>ner, that with <hi>Lazarus</hi> is as dead and buried in the grave of Cuſtom; for this is the worſt kind pleading Cu<g ref="char:EOLhyphen"/>ſtom, and moſt hard to be caſt out: It were good to pray <hi>Davids</hi> prayer with <hi>Davids</hi> ſpirit,
+<note place="margin">Pſal. 19.12 13.</note> 
+               <hi>[Cleanſe thou me from ſecret ſins,]</hi> for even this is an evil kind, not eaſily caſt out: But it were good to heat the furnace of our Devotions yet ſeven times more then it was wont to be heat (if poſſible) when we come to this, <hi>[Keep back thy ſervant alſo from preſumptuous ſins, let them not have do<g ref="char:EOLhyphen"/>minion
+<pb n="45" facs="tcp:135576:24" rendition="simple:additions"/>over me, Then ſhall I be upright and innocent from the great (or much) Tranſgreſsion;]</hi> For this is the worſt kind, very hard to be caſt out. Take we heed therefore of giving Diſpenſations of witting or willing Allow<g ref="char:EOLhyphen"/>ance and Indulgence to any ſin; for (beleeve it) the leaſt ſin committed preſumptuouſly will weigh too hea<g ref="char:EOLhyphen"/>vy in the ballance of the Sanctuary.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> And finally, If an evil Spirit of any kind hath got poſſeſſion, that Chriſts Ordinances cannot caſt out,
+<note place="margin">Mark 9.18</note> (as Chriſts Diſciples here in this kind could not,) Then be ſure to remember the words of the Lord Jeſus,
+<note place="margin">Verſ. 19.</note> 
+               <hi>[Bring him unto me;]</hi> If neither Word nor Sacrament will do it, try what Prayer will do; Preſent thy heart (as that father did his ſon) to Chriſt, and ſay, [Lord, here is my heart, poſſeſt with an evil ſpirit of Infidelity, or of Ob<g ref="char:EOLhyphen"/>duracy, or of Pride, or any other Impiety, &amp;c. I have often carried it to the Word, and to the Sacrament, and to other of thine Ordinances, that they ſhould caſt him out, and yet They could not: Now ſith thou haſt ſaid <hi>[Bring him unto me,]</hi> behold Lord, in Obedience to thy Command, and in Confidence of thy Promiſe, I here preſent it naked and proſtrate before thee, Strike where thou wilt ſo thou cure, Handle it how thou pleaſeſt ſo thou caſt it not out of thy hands; Lord, I beleeve, help thou my unbelief; Speak thou but the word, and my heart ſhall be diſpoſſeſſed, mollified, humbled and ſan<g ref="char:EOLhyphen"/>ctified, &amp;c.] Pray, I ſay, and I ſay again, Pray; who can tell what Prayer may do? Oh the Wonders of Salva<g ref="char:EOLhyphen"/>tion wrought by Prayer in all the Elements from the higheſt Heaven to the loweſt Hell!
+<note place="margin">Aug. <hi>Deo ſacrificium, Homini ſubſidium, Daemonib<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> flagellam.</hi>
+               </note> as a Sacrifice to God, Help to Man, and Scourge to Satan. And indeed if the Spirit of Grace and Adoption beget it, if the Spirit of Grace and Regeneration conceive it, and if the wings of Faith and Fervency do carry it through the Angels hand, &amp;c. what can hinder it?
+<note place="margin">Iam. 5.16. Rev. 8.4.</note> Not for the meer excel<g ref="char:EOLhyphen"/>lency
+<pb n="46" facs="tcp:135576:25" rendition="simple:additions"/>that is in it ſelf, nor for the bare Faculty of it, but for Gods Inſtitution and Appointment of it to this end, ſingling of it out to this purpoſe in his own Acceptance: This is it that does it, whereby Prayer rightly Rooted, and rightly Regulated, can do Miracles when nothing elſe can do it, even caſt out Devils, as here in the preſent Caſe of our Text, <hi>This Kind can come forth by nothing, but by Prayer and Faſting:</hi> Which might be eaſily brought up, but that the Well is deep, and I doubt here is no Bucket to draw. Therefore ſo much ſhall ſerve for this time of this thing.</p>
+            <epigraph>
+               <q>
+                  <note place="margin">2 Tim. 2.7</note> Conſider what is ſaid, and God give you underſtanding in all things. Amen.</q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
